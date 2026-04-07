@@ -3,7 +3,6 @@
 *.shader text
 *.txt text
 *.json text
-
 # Binary assets (Git LFS)
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
@@ -15,3 +14,4 @@
 *.anim filter=lfs diff=lfs merge=lfs -text
 *.psd filter=lfs diff=lfs merge=lfs -text
 *.fbx filter=lfs diff=lfs merge=lfs -text
+*.asset filter=lfs diff=lfs merge=lfs -text
