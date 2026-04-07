@@ -7,7 +7,7 @@ public class GunSO : ScriptableObject
     public Sprite crosshair;
 
     public Vector2 firePoint;
-    [Range(0.1f, 2f)] public float fireRate = 0.333f;
+    [Range(0.1f, 3f)] public float fireRate = 0.333f;
 
     public bool isAuto = true;
 
@@ -20,6 +20,8 @@ public class GunSO : ScriptableObject
     [Range(0f, 45f)] public float spreadAngle = 0f;
 
     public GameObject bulletPrefab;
-    [Range(1f, 20f)] public float bulletSpeed = 10f;
+    [Range(1f, 30f)] public float bulletSpeed = 10f;
     [Range(0f, 100f)] public float damage = 1f;
+
+    [Range(0f, 1f)] public float recoilDistance = 0.1f;
 }

@@ -32,6 +32,7 @@ public class PlayerMove : MonoBehaviour
     private GunSO gun;
 
     private bool isBursting;
+    private Vector3 recoilOffset;
 
     [SerializeField] private Transform bulletFolder;
 
@@ -127,6 +128,10 @@ public class PlayerMove : MonoBehaviour
                 }
             }
         }
+
+        // recoil return
+        recoilOffset = Vector3.Lerp(recoilOffset, Vector3.zero, 10f * Time.deltaTime);
+        gunTransform.localPosition = recoilOffset;
     }
 
     private void FixedUpdate()
@@ -164,6 +169,9 @@ public class PlayerMove : MonoBehaviour
         GameObject b = Instantiate(gun.bulletPrefab, firePoint.position, rot, bulletFolder);
 
         b.GetComponent<Rigidbody2D>().linearVelocity = rot * Vector2.up * gun.bulletSpeed;
+
+        Vector3 recoilDirLocal = gunTransform.InverseTransformDirection(-gunHolder.right);
+        recoilOffset += recoilDirLocal * gun.recoilDistance;
 
         Destroy(b, 3f);
     }
