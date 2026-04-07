@@ -1,6 +1,6 @@
 using UnityEngine;
 using System;
-using UnityEngine.InputSystem; // Make sure the new Input System package is installed
+using UnityEngine.InputSystem;
 
 public class InputManager : MonoBehaviour
 {
@@ -18,15 +18,17 @@ public class InputManager : MonoBehaviour
     public event Action<bool> onSwitch;
 
     // states
-    public bool isMoving;
-    public bool isAiming;
-    public bool isSprinting;
+    public bool IsMoving { get; private set; }
+    public bool IsAiming { get; private set; }
+    public bool IsSprinting { get; private set; }
+    public bool IsPrimary { get; private set; }
+    public bool IsSecondary { get; private set; }
+    public bool IsInteracting { get; private set; }
+    public bool IsSwitching { get; private set; }
 
-    public bool isPrimary;
-    public bool isSecondary;
-
-    public bool isInteracting;
-    public bool isSwitching;
+    // values
+    public Vector2 MoveInput { get; private set; }
+    public Vector2 AimInput { get; private set; }
 
     private void Awake()
     {
@@ -37,25 +39,41 @@ public class InputManager : MonoBehaviour
     {
         controls.Player.Enable();
 
-        // subscriptions
+        // move
         controls.Player.Move.started += ctx => SetMove(true);
-        controls.Player.Move.canceled += ctx => SetMove(false);
+        controls.Player.Move.performed += ctx => MoveInput = ctx.ReadValue<Vector2>();
+        controls.Player.Move.canceled += ctx =>
+        {
+            MoveInput = Vector2.zero;
+            SetMove(false);
+        };
 
+        // aim
         controls.Player.Aim.started += ctx => SetAim(true);
-        controls.Player.Aim.canceled += ctx => SetAim(false);
+        controls.Player.Aim.performed += ctx => AimInput = ctx.ReadValue<Vector2>();
+        controls.Player.Aim.canceled += ctx =>
+        {
+            AimInput = Vector2.zero;
+            SetAim(false);
+        };
 
+        // sprint
         controls.Player.Sprint.started += ctx => SetSprint(true);
         controls.Player.Sprint.canceled += ctx => SetSprint(false);
 
+        // primary
         controls.Player.Primary.started += ctx => SetPrimary(true);
         controls.Player.Primary.canceled += ctx => SetPrimary(false);
 
+        // secondary
         controls.Player.Secondary.started += ctx => SetSecondary(true);
         controls.Player.Secondary.canceled += ctx => SetSecondary(false);
 
+        // interact
         controls.Player.Interact.started += ctx => SetInteract(true);
         controls.Player.Interact.canceled += ctx => SetInteract(false);
 
+        // switch
         controls.Player.Switch.started += ctx => SetSwitch(true);
         controls.Player.Switch.canceled += ctx => SetSwitch(false);
     }
@@ -68,43 +86,43 @@ public class InputManager : MonoBehaviour
     // setters
     private void SetMove(bool value)
     {
-        isMoving = value;
+        IsMoving = value;
         onMove?.Invoke(value);
     }
 
     private void SetAim(bool value)
     {
-        isAiming = value;
+        IsAiming = value;
         onAim?.Invoke(value);
     }
 
     private void SetSprint(bool value)
     {
-        isSprinting = value;
+        IsSprinting = value;
         onSprint?.Invoke(value);
     }
 
     private void SetPrimary(bool value)
     {
-        isPrimary = value;
+        IsPrimary = value;
         onPrimary?.Invoke(value);
     }
 
     private void SetSecondary(bool value)
     {
-        isSecondary = value;
+        IsSecondary = value;
         onSecondary?.Invoke(value);
     }
 
     private void SetInteract(bool value)
     {
-        isInteracting = value;
+        IsInteracting = value;
         onInteract?.Invoke(value);
     }
 
     private void SetSwitch(bool value)
     {
-        isSwitching = value;
+        IsSwitching = value;
         onSwitch?.Invoke(value);
     }
 }
