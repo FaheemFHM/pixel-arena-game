@@ -1,8 +1,9 @@
-# Unity meta files and text files
+# Unity text files
 *.cs text
 *.shader text
 *.txt text
 *.json text
+*.meta text eol=lf
 
 # Binary assets (Git LFS)
 *.png filter=lfs diff=lfs merge=lfs -text
