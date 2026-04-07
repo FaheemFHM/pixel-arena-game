@@ -119,7 +119,12 @@ public class PlayerMove : MonoBehaviour
             {
                 if ((!gun.isAuto && !hasFired) || gun.isAuto)
                 {
-                    Shoot();
+                    float totalSpread = gun.spreadAngle * (gun.spreadCount - 1);
+                    for (int i = 0; i < gun.spreadCount; i++)
+                    {
+                        float shotAngle = -totalSpread / 2f + gun.spreadAngle * i;
+                        Shoot(shotAngle);
+                    }
                     fireCooldown = gun.fireRate;
                     hasFired = true;
                 }
@@ -135,10 +140,13 @@ public class PlayerMove : MonoBehaviour
         rb.linearVelocity = vel * speed;
     }
 
-    void Shoot()
+    void Shoot(float angle)
     {
-        GameObject b = Instantiate(gun.bulletPrefab, firePoint.position, firePoint.rotation, bulletFolder);
-        b.GetComponent<Rigidbody2D>().linearVelocity = myNorm * gun.bulletSpeed;
+        Quaternion rot = firePoint.rotation * Quaternion.Euler(0, 0, angle);
+        GameObject b = Instantiate(gun.bulletPrefab, firePoint.position, rot, bulletFolder);
+
+        b.GetComponent<Rigidbody2D>().linearVelocity = b.transform.up * gun.bulletSpeed;
+
         Destroy(b, 3f);
     }
 
