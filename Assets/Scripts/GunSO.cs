@@ -14,6 +14,8 @@ public class GunSO : ScriptableObject
     [Range(1, 100)] public int ammoCost = 1;
 
     [Range(1, 5)] public int burstCount = 1;
+    [Range(0f, 1f)] public float burstRate = 0.1f;
+
     [Range(1, 5)] public int spreadCount = 1;
     [Range(0f, 45f)] public float spreadAngle = 0f;
 

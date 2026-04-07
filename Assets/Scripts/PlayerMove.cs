@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -29,6 +30,8 @@ public class PlayerMove : MonoBehaviour
     private SpriteRenderer gunRend;
     private int gunsIndex = 0;
     private GunSO gun;
+
+    private bool isBursting;
 
     [SerializeField] private Transform bulletFolder;
 
@@ -115,17 +118,11 @@ public class PlayerMove : MonoBehaviour
 
         if (inputs.IsPrimary)
         {
-            if (fireCooldown < 0f)
+            if (fireCooldown < 0f && !isBursting)
             {
                 if ((!gun.isAuto && !hasFired) || gun.isAuto)
                 {
-                    float totalSpread = gun.spreadAngle * (gun.spreadCount - 1);
-                    for (int i = 0; i < gun.spreadCount; i++)
-                    {
-                        float shotAngle = -totalSpread / 2f + gun.spreadAngle * i;
-                        Shoot(shotAngle);
-                    }
-                    fireCooldown = gun.fireRate;
+                    StartCoroutine(FireBurst());
                     hasFired = true;
                 }
             }
@@ -140,12 +137,33 @@ public class PlayerMove : MonoBehaviour
         rb.linearVelocity = vel * speed;
     }
 
+    IEnumerator FireBurst()
+    {
+        isBursting = true;
+
+        for (int b = 0; b < gun.burstCount; b++)
+        {
+            float totalSpread = gun.spreadAngle * (gun.spreadCount - 1);
+
+            for (int i = 0; i < gun.spreadCount; i++)
+            {
+                float shotAngle = -totalSpread / 2f + gun.spreadAngle * i;
+                Shoot(shotAngle);
+            }
+
+            if (b < gun.burstCount - 1) yield return new WaitForSeconds(gun.burstRate);
+        }
+
+        fireCooldown = gun.fireRate;
+        isBursting = false;
+    }
+
     void Shoot(float angle)
     {
-        Quaternion rot = firePoint.rotation * Quaternion.Euler(0, 0, angle);
+        Quaternion rot = gunHolder.rotation * Quaternion.Euler(0, 0, angle - 90f);
         GameObject b = Instantiate(gun.bulletPrefab, firePoint.position, rot, bulletFolder);
 
-        b.GetComponent<Rigidbody2D>().linearVelocity = b.transform.up * gun.bulletSpeed;
+        b.GetComponent<Rigidbody2D>().linearVelocity = rot * Vector2.up * gun.bulletSpeed;
 
         Destroy(b, 3f);
     }
