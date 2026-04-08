@@ -15,6 +15,8 @@ public class PlayerMove : MonoBehaviour
     private Vector2 moveNorm;
     private Vector2 aimInput;
     private Vector2 aimNorm;
+
+    private Vector2 myInput;
     private Vector2 myNorm = Vector2.right;
 
     private int dir = 1;
@@ -70,6 +72,25 @@ public class PlayerMove : MonoBehaviour
 
     private void Update()
     {
+        ReadInputs();
+        FindPlayerDirection();
+        FlipPlayer();
+        AimGun();
+        UpdateCrosshair();
+        HandleShooting();
+        ReturnRecoil();
+    }
+
+    private void FixedUpdate()
+    {
+        // move
+        float speed = inputs.IsSprinting ? sprintSpeed : moveSpeed;
+        Vector2 vel = new Vector2(moveNorm.x, moveNorm.y * verticalMoveDamping);
+        rb.linearVelocity = vel * speed;
+    }
+
+    void ReadInputs()
+    {
         // get inputs
         moveInput = inputs.MoveInput;
         aimInput = inputs.AimInput;
@@ -77,17 +98,24 @@ public class PlayerMove : MonoBehaviour
         // get normalised inputs
         moveNorm = moveInput.normalized;
         aimNorm = aimInput.normalized;
+    }
 
-        // player direction
-        Vector2 myInput = aimInput.magnitude < 0.01f ? moveInput : aimInput;
+    void FindPlayerDirection()
+    {
+        myInput = aimInput.magnitude < 0.01f ? moveInput : aimInput;
         if (myInput.sqrMagnitude > 0.01f) myNorm = myInput.normalized;
 
         if (myNorm.x < -0.01f) dir = -1;
         else if (myNorm.x > 0.01f) dir = 1;
+    }
 
-        // flip character
+    void FlipPlayer()
+    {
         spriteTransform.localScale = new Vector3(dir, 1, 1);
+    }
 
+    void AimGun()
+    {
         // spin gun
         int spinDir = (gunSpinClockwise ? -1 : 1);
         gunPivot.Rotate(0, 0, gunSpinSpeed * spinDir * Time.deltaTime);
@@ -98,48 +126,49 @@ public class PlayerMove : MonoBehaviour
 
         // flip gun
         gunHolder.localScale = new Vector3(1, dir, 1);
+    }
 
+    void UpdateCrosshair()
+    {
         // crosshair position
         float dist = myInput.magnitude * crosshairDistMax;
         crosshair.localPosition = (myNorm * dist) + gunOffset;
 
-        // crosshair effects
+        // crosshair values
         float strength = Mathf.Clamp01(myInput.magnitude);
         float cutoff = crosshairDistMin / crosshairDistMax;
-        float op = Mathf.InverseLerp(0f, cutoff, strength);
-
+        float t = Mathf.InverseLerp(0f, cutoff, strength);
+        
+        // crosshair opacity
         Color c = crossRend.color;
-        c.a = op;
+        c.a = t;
         crossRend.color = c;
 
-        crosshair.localScale = Vector2.one * op;
-
-        // shooting
-        fireCooldown -= Time.deltaTime;
-
-        if (inputs.IsPrimary)
-        {
-            if (fireCooldown < 0f && !isBursting)
-            {
-                if ((!gun.isAuto && !hasFired) || gun.isAuto)
-                {
-                    StartCoroutine(FireBurst());
-                    hasFired = true;
-                }
-            }
-        }
-
-        // recoil return
-        recoilOffset = Vector3.Lerp(recoilOffset, Vector3.zero, 10f * Time.deltaTime);
-        gunTransform.localPosition = recoilOffset;
+        // crosshair scale
+        crosshair.localScale = Vector3.one * t;
     }
 
-    private void FixedUpdate()
+    void HandleShooting()
     {
-        // move
-        float speed = inputs.IsSprinting ? sprintSpeed : moveSpeed;
-        Vector2 vel = new Vector2(moveNorm.x, moveNorm.y * verticalMoveDamping);
-        rb.linearVelocity = vel * speed;
+        fireCooldown -= Time.deltaTime;
+
+        if (!inputs.IsPrimary) return;
+
+        if (fireCooldown < 0f && !isBursting)
+        {
+            if ((!gun.isAuto && !hasFired) || gun.isAuto)
+            {
+                StartCoroutine(FireBurst());
+                hasFired = true;
+            }
+        }
+    }
+
+    void ReturnRecoil()
+    {
+        recoilOffset = Vector3.Lerp(recoilOffset, Vector3.zero, gun.recoilReturnSpeed * Time.deltaTime);
+        if (recoilOffset.magnitude < 0.001f) recoilOffset = Vector3.zero;
+        gunTransform.localPosition = recoilOffset;
     }
 
     IEnumerator FireBurst()
@@ -165,6 +194,8 @@ public class PlayerMove : MonoBehaviour
 
     void Shoot(float angle)
     {
+        // gun sprite faces right but the bullet one faces right
+
         Quaternion rot = gunHolder.rotation * Quaternion.Euler(0, 0, angle - 90f);
         GameObject b = Instantiate(gun.bulletPrefab, firePoint.position, rot, bulletFolder);
 

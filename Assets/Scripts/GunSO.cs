@@ -24,4 +24,5 @@ public class GunSO : ScriptableObject
     [Range(0f, 100f)] public float damage = 1f;
 
     [Range(0f, 1f)] public float recoilDistance = 0.1f;
+    [Range(1f, 30f)] public float recoilReturnSpeed = 16f;
 }
