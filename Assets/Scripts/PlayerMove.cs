@@ -83,7 +83,11 @@ public class PlayerMove : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // move
+        ApplyMove();
+    }
+
+    void ApplyMove()
+    {
         float speed = inputs.IsSprinting ? sprintSpeed : moveSpeed;
         Vector2 vel = new Vector2(moveNorm.x, moveNorm.y * verticalMoveDamping);
         rb.linearVelocity = vel * speed;
