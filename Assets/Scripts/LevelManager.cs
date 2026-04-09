@@ -10,6 +10,7 @@ public class LevelManager : MonoBehaviour
     Dictionary<(int level, TileType tType), Tilemap> tilemaps;
     Dictionary<int, int> tileCounts;
     private Grid grid;
+    [SerializeField] private bool debugTileCounts = false;
 
     private void Awake()
     {
@@ -87,7 +88,7 @@ public class LevelManager : MonoBehaviour
             }
         }
 
-        PrintTileCounts();
+        if (debugTileCounts) PrintTileCounts();
     }
 
     void AddTiles(int level, Tilemap tilemap, TileType tType)

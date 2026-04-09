@@ -304,6 +304,7 @@ public class PlayerMove : MonoBehaviour
         GameObject b = Instantiate(gun.bulletPrefab, firePoint.position, rot, bulletFolder);
 
         b.GetComponent<Rigidbody2D>().linearVelocity = rot * Vector2.up * gun.bulletSpeed;
+        b.GetComponent<Bullet>().level = level;
 
         Vector3 recoilDirLocal = gunTransform.InverseTransformDirection(-gunHolder.right);
         recoilOffset += recoilDirLocal * gun.recoilDistance;
