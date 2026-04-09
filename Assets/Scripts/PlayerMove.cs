@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Tilemaps;
 using System.Collections;
 
 public class PlayerMove : MonoBehaviour
@@ -49,6 +50,8 @@ public class PlayerMove : MonoBehaviour
     [SerializeField, Range(1f, 10f)] private float crosshairDistMax = 3f;
     private SpriteRenderer crossRend;
 
+    [SerializeField] private int level;
+
     private void Start()
     {
         // components
@@ -62,7 +65,7 @@ public class PlayerMove : MonoBehaviour
         // gun
         gunTransform = gunHolder.GetChild(0);
         gunRend = gunTransform.GetComponentInChildren<SpriteRenderer>();
-        gunOffset = Vector2.up * gunHolder.localPosition.y;
+        gunOffset = Vector2.up * gunPivot.localPosition.y;
 
         crossRend = crosshair.GetComponent<SpriteRenderer>();
 
@@ -79,6 +82,10 @@ public class PlayerMove : MonoBehaviour
         UpdateCrosshair();
         HandleShooting();
         ReturnRecoil();
+
+        Vector3Int gridPos = LevelManager.instance.GetGridPos(transform.position);
+        TileData? t = LevelManager.instance.GetTile(gridPos, level + 1);
+        Debug.Log(t.HasValue ? t.Value.tType.ToString() : "No tile");
     }
 
     private void FixedUpdate()
