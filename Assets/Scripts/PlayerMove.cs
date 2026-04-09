@@ -12,6 +12,7 @@ public class PlayerMove : MonoBehaviour
     [SerializeField, Range(0f, 10f)] private float sprintSpeed = 6f;
     [SerializeField, Range(0f, 1f)] private float verticalMoveDamping = 0.9f;
     [SerializeField] private Transform spriteTransform;
+    private SpriteRenderer rend;
     private Vector2 moveInput;
     private Vector2 moveNorm;
     private Vector2 aimInput;
@@ -50,7 +51,9 @@ public class PlayerMove : MonoBehaviour
     [SerializeField, Range(1f, 10f)] private float crosshairDistMax = 3f;
     private SpriteRenderer crossRend;
 
-    [SerializeField] private int level;
+    [SerializeField] private int level = 0;
+    [SerializeField] private bool isRamping = false;
+    private bool prevRamping = false;
 
     private void Start()
     {
@@ -64,9 +67,10 @@ public class PlayerMove : MonoBehaviour
 
         // gun
         gunTransform = gunHolder.GetChild(0);
-        gunRend = gunTransform.GetComponentInChildren<SpriteRenderer>();
         gunOffset = Vector2.up * gunPivot.localPosition.y;
 
+        rend = spriteTransform.GetComponent<SpriteRenderer>();
+        gunRend = gunTransform.GetComponentInChildren<SpriteRenderer>();
         crossRend = crosshair.GetComponent<SpriteRenderer>();
 
         gunsIndex = guns.Length - 1;
@@ -76,16 +80,17 @@ public class PlayerMove : MonoBehaviour
     private void Update()
     {
         ReadInputs();
+
         FindPlayerDirection();
         FlipPlayer();
+
         AimGun();
         UpdateCrosshair();
+
         HandleShooting();
         ReturnRecoil();
 
-        Vector3Int gridPos = LevelManager.instance.GetGridPos(transform.position);
-        TileData? t = LevelManager.instance.GetTile(gridPos, level + 1);
-        Debug.Log(t.HasValue ? t.Value.tType.ToString() : "No tile");
+        HandleRamps();
     }
 
     private void FixedUpdate()
@@ -93,11 +98,83 @@ public class PlayerMove : MonoBehaviour
         ApplyMove();
     }
 
+    void HandleRamps()
+    {
+        TileType myTileType = LevelManager.instance.GetTileType(rb.position, level);
+
+        prevRamping = isRamping;
+        isRamping = myTileType == TileType.Ramp;
+
+        // if never on ramp
+        if (!prevRamping && !isRamping)
+        {
+
+        }
+        // if always on ramp
+        else if (prevRamping && isRamping)
+        {
+
+        }
+        // if entering ramp
+        else if (!prevRamping && isRamping)
+        {
+            rend.color = Color.red;
+        }
+        // if exiting ramp
+        else if (prevRamping && !isRamping)
+        {
+            rend.color = Color.white;
+        }
+
+        // if you are
+
+        // do nothing if not ramp
+        // get the tilemap given the tile type and level
+        // get tile from tilemap given pos
+        // detect if i leave the ramp
+        // detect if i leave the ramp up or down
+        // change level variable accordingly
+
+
+
+
+
+    }
+
     void ApplyMove()
     {
+        // get values
+        Vector2 delta = GetMoveDelta();
+        Vector3 currentPos = rb.position;
+        Vector3 newPos = currentPos;
+
+        // attempt X movement
+        Vector3 xCheck = currentPos + new Vector3(delta.x, 0, 0);
+        if (CanMoveTo(xCheck)) newPos.x += delta.x;
+
+        // attempt Y movement
+        Vector3 yCheck = currentPos + new Vector3(0, delta.y, 0);
+        if (CanMoveTo(yCheck)) newPos.y += delta.y;
+
+        // apply movement vector
+        rb.MovePosition(newPos);
+    }
+
+    Vector2 GetMoveDelta()
+    {
+        // gives the Vector2 representing unbounded movement
+        Vector2 inp = new Vector2(moveNorm.x, moveNorm.y * verticalMoveDamping);
         float speed = inputs.IsSprinting ? sprintSpeed : moveSpeed;
-        Vector2 vel = new Vector2(moveNorm.x, moveNorm.y * verticalMoveDamping);
-        rb.linearVelocity = vel * speed;
+        Vector2 delta = inp * speed * Time.fixedDeltaTime;
+        return delta;
+    }
+
+    private bool CanMoveTo(Vector3 pos)
+    {
+        TileType tType = LevelManager.instance.GetTileType(pos, level);
+
+        if (tType == TileType.Cliff) return false;
+        return true;
     }
 
     void ReadInputs()

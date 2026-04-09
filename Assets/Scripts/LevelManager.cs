@@ -7,6 +7,7 @@ public class LevelManager : MonoBehaviour
     public static LevelManager instance { get; private set; }
 
     Dictionary<(Vector3Int pos, int level), TileData> tiles;
+    Dictionary<(int level, TileType tType), Tilemap> tilemaps;
     Dictionary<int, int> tileCounts;
     private Grid grid;
 
@@ -25,6 +26,7 @@ public class LevelManager : MonoBehaviour
         grid = GetComponent<Grid>();
 
         tiles = new();
+        tilemaps = new();
         tileCounts = new();
 
         // methods
@@ -36,15 +38,29 @@ public class LevelManager : MonoBehaviour
         return grid.WorldToCell(pos);
     }
 
-    public TileData? GetTile(Vector3Int pos, int level)
+    public TileData? GetTileData(Vector3Int pos, int level)
     {
         if (tiles.TryGetValue((pos, level), out var tile)) return tile;
         return null;
     }
 
+    public TileType GetDataTileType(TileData? tData)
+    {
+        return tData.HasValue ? tData.Value.tType : TileType.None;
+    }
+
+    public TileType GetTileType(Vector3 pos, int lvl)
+    {
+        Vector3Int gridPos = GetGridPos(pos);
+        TileData? tData = GetTileData(gridPos, lvl);
+        TileType tType = GetDataTileType(tData);
+        return tType;
+    }
+
     void RegisterTiles()
     {
         tiles.Clear();
+        tilemaps.Clear();
         tileCounts.Clear();
 
         Level[] levels = GetComponentsInChildren<Level>();
@@ -56,6 +72,7 @@ public class LevelManager : MonoBehaviour
             foreach (TilemapLayer tl in lvl.tLayers)
             {
                 AddTiles(lvl.level, tl.tMap, tl.tType);
+                tilemaps[(lvl.level, tl.tType)] = tl.tMap;
             }
         }
 
