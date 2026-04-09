@@ -21,6 +21,8 @@ public class PlayerMove : MonoBehaviour
     private Vector2 myInput;
     private Vector2 myNorm = Vector2.right;
 
+    private float INPUT_THRESHOLD = 0.01f;
+
     private int dir = 1;
 
     [Header("Shooting")]
@@ -125,6 +127,7 @@ public class PlayerMove : MonoBehaviour
         {
             rend.color = Color.white;
 
+            // update level
             if (prevTile == TileType.Ramp && moveNorm.y > 0f) level++;
             else if (prevTileLower == TileType.Ramp && moveNorm.y < 0f) level--;
         }
@@ -132,16 +135,19 @@ public class PlayerMove : MonoBehaviour
 
     void ApplyMove()
     {
+        // dont bother making any tilemap calls if no input
+        if (moveInput.magnitude < INPUT_THRESHOLD) return;
+
         // get values
         Vector2 delta = GetMoveDelta();
         Vector3 currentPos = rb.position;
         Vector3 newPos = currentPos;
 
-        // attempt X movement
+        // attempt horizontal movement
         Vector3 xCheck = currentPos + new Vector3(delta.x, 0, 0);
         if (CanMoveTo(xCheck)) newPos.x += delta.x;
 
-        // attempt Y movement
+        // attempt vertical movement
         Vector3 yCheck = currentPos + new Vector3(0, delta.y, 0);
         if (CanMoveTo(yCheck)) newPos.y += delta.y;
 
@@ -160,9 +166,30 @@ public class PlayerMove : MonoBehaviour
 
     private bool CanMoveTo(Vector3 pos)
     {
+        // get tile type on my level
         TileType tType = LevelManager.instance.GetTileType(pos, level);
 
+        // dont walk into cliffs
         if (tType == TileType.Cliff) return false;
+
+        // you can walk down along ramp
+        if (curTile == TileType.Ramp) return true;
+        if (curTileLower == TileType.Ramp) return true;
+
+        // dont walk into the sides of floors
+        if (tType == TileType.Floor) return false;
+
+        // you cant fall off ground level
+        if (level < 1) return true;
+
+        // get tile type on lower level
+        tType = LevelManager.instance.GetTileType(pos, level - 1);
+
+        // dont walk off cliffs
+        if (tType == TileType.None) return false;
+        if (tType == TileType.Cliff) return false;
+
+        // by default you are free to walk
         return true;
     }
 
@@ -179,11 +206,11 @@ public class PlayerMove : MonoBehaviour
 
     void FindPlayerDirection()
     {
-        myInput = aimInput.magnitude < 0.01f ? moveInput : aimInput;
-        if (myInput.sqrMagnitude > 0.01f) myNorm = myInput.normalized;
+        myInput = aimInput.magnitude < INPUT_THRESHOLD ? moveInput : aimInput;
+        if (myInput.sqrMagnitude > INPUT_THRESHOLD) myNorm = myInput.normalized;
 
-        if (myNorm.x < -0.01f) dir = -1;
-        else if (myNorm.x > 0.01f) dir = 1;
+        if (myNorm.x < -INPUT_THRESHOLD) dir = -1;
+        else if (myNorm.x > INPUT_THRESHOLD) dir = 1;
     }
 
     void FlipPlayer()
