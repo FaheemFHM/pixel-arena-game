@@ -52,7 +52,13 @@ public class PlayerMove : MonoBehaviour
     private SpriteRenderer crossRend;
 
     [SerializeField] private int level = 0;
-    [SerializeField] private bool isRamping = false;
+
+    private TileType prevTile;
+    private TileType prevTileLower;
+    private TileType curTile;
+    private TileType curTileLower;
+
+    private bool isRamping = false;
     private bool prevRamping = false;
 
     private void Start()
@@ -100,45 +106,28 @@ public class PlayerMove : MonoBehaviour
 
     void HandleRamps()
     {
-        TileType myTileType = LevelManager.instance.GetTileType(rb.position, level);
+        prevTile = curTile;
+        prevTileLower = curTileLower;
+
+        curTile = LevelManager.instance.GetTileType(rb.position, level);
+        curTileLower = LevelManager.instance.GetTileType(rb.position, level - 1);
 
         prevRamping = isRamping;
-        isRamping = myTileType == TileType.Ramp;
+        isRamping = (curTile == TileType.Ramp || curTileLower == TileType.Ramp);
 
-        // if never on ramp
-        if (!prevRamping && !isRamping)
-        {
-
-        }
-        // if always on ramp
-        else if (prevRamping && isRamping)
-        {
-
-        }
-        // if entering ramp
-        else if (!prevRamping && isRamping)
+        // entering ramp
+        if (!prevRamping && isRamping)
         {
             rend.color = Color.red;
         }
-        // if exiting ramp
+        // exiting ramp
         else if (prevRamping && !isRamping)
         {
             rend.color = Color.white;
+
+            if (prevTile == TileType.Ramp && moveNorm.y > 0f) level++;
+            else if (prevTileLower == TileType.Ramp && moveNorm.y < 0f) level--;
         }
-
-        // if you are
-
-        // do nothing if not ramp
-        // get the tilemap given the tile type and level
-        // get tile from tilemap given pos
-        // detect if i leave the ramp
-        // detect if i leave the ramp up or down
-        // change level variable accordingly
-
-
-
-
-
     }
 
     void ApplyMove()

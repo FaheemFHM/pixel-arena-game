@@ -57,6 +57,17 @@ public class LevelManager : MonoBehaviour
         return tType;
     }
 
+    public Tilemap GetTilemap(int lvl, TileType tType)
+    {
+        return tilemaps[(lvl, tType)];
+    }
+
+    public TileBase GetTile(Tilemap tMap, Vector3 pos)
+    {
+        Vector3Int tPos = GetGridPos(pos);
+        return tMap.GetTile(tPos);
+    }
+
     void RegisterTiles()
     {
         tiles.Clear();
