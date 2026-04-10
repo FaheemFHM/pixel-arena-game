@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Tilemaps;
 using System.Collections;
 
 public class PlayerMove : MonoBehaviour
@@ -11,6 +12,7 @@ public class PlayerMove : MonoBehaviour
     [SerializeField, Range(0f, 10f)] private float sprintSpeed = 6f;
     [SerializeField, Range(0f, 1f)] private float verticalMoveDamping = 0.9f;
     [SerializeField] private Transform spriteTransform;
+    private SpriteRenderer rend;
     private Vector2 moveInput;
     private Vector2 moveNorm;
     private Vector2 aimInput;
@@ -18,6 +20,8 @@ public class PlayerMove : MonoBehaviour
 
     private Vector2 myInput;
     private Vector2 myNorm = Vector2.right;
+
+    private float INPUT_THRESHOLD = 0.01f;
 
     private int dir = 1;
 
@@ -49,6 +53,16 @@ public class PlayerMove : MonoBehaviour
     [SerializeField, Range(1f, 10f)] private float crosshairDistMax = 3f;
     private SpriteRenderer crossRend;
 
+    [SerializeField] private int level = 0;
+
+    private TileType prevTile;
+    private TileType prevTileLower;
+    private TileType curTile;
+    private TileType curTileLower;
+
+    private bool isRamping = false;
+    private bool prevRamping = false;
+
     private void Start()
     {
         // components
@@ -61,9 +75,10 @@ public class PlayerMove : MonoBehaviour
 
         // gun
         gunTransform = gunHolder.GetChild(0);
-        gunRend = gunTransform.GetComponentInChildren<SpriteRenderer>();
-        gunOffset = Vector2.up * gunHolder.localPosition.y;
+        gunOffset = Vector2.up * gunPivot.localPosition.y;
 
+        rend = spriteTransform.GetComponent<SpriteRenderer>();
+        gunRend = gunTransform.GetComponentInChildren<SpriteRenderer>();
         crossRend = crosshair.GetComponent<SpriteRenderer>();
 
         gunsIndex = guns.Length - 1;
@@ -73,12 +88,17 @@ public class PlayerMove : MonoBehaviour
     private void Update()
     {
         ReadInputs();
+
         FindPlayerDirection();
         FlipPlayer();
+
         AimGun();
         UpdateCrosshair();
+
         HandleShooting();
         ReturnRecoil();
+
+        HandleRamps();
     }
 
     private void FixedUpdate()
@@ -86,11 +106,91 @@ public class PlayerMove : MonoBehaviour
         ApplyMove();
     }
 
+    void HandleRamps()
+    {
+        prevTile = curTile;
+        prevTileLower = curTileLower;
+
+        curTile = LevelManager.instance.GetTileType(rb.position, level);
+        curTileLower = LevelManager.instance.GetTileType(rb.position, level - 1);
+
+        prevRamping = isRamping;
+        isRamping = (curTile == TileType.Ramp || curTileLower == TileType.Ramp);
+
+        // entering ramp
+        if (!prevRamping && isRamping)
+        {
+            rend.color = Color.red;
+        }
+        // exiting ramp
+        else if (prevRamping && !isRamping)
+        {
+            rend.color = Color.white;
+
+            // update level
+            if (prevTile == TileType.Ramp && moveNorm.y > 0f) level++;
+            else if (prevTileLower == TileType.Ramp && moveNorm.y < 0f) level--;
+        }
+    }
+
     void ApplyMove()
     {
+        // dont bother making any tilemap calls if no input
+        if (moveInput.magnitude < INPUT_THRESHOLD) return;
+
+        // get values
+        Vector2 delta = GetMoveDelta();
+        Vector3 currentPos = rb.position;
+        Vector3 newPos = currentPos;
+
+        // attempt horizontal movement
+        Vector3 xCheck = currentPos + new Vector3(delta.x, 0, 0);
+        if (CanMoveTo(xCheck)) newPos.x += delta.x;
+
+        // attempt vertical movement
+        Vector3 yCheck = currentPos + new Vector3(0, delta.y, 0);
+        if (CanMoveTo(yCheck)) newPos.y += delta.y;
+
+        // apply movement vector
+        rb.MovePosition(newPos);
+    }
+
+    Vector2 GetMoveDelta()
+    {
+        // gives the Vector2 representing unbounded movement
+        Vector2 inp = new Vector2(moveNorm.x, moveNorm.y * verticalMoveDamping);
         float speed = inputs.IsSprinting ? sprintSpeed : moveSpeed;
-        Vector2 vel = new Vector2(moveNorm.x, moveNorm.y * verticalMoveDamping);
-        rb.linearVelocity = vel * speed;
+        Vector2 delta = inp * speed * Time.fixedDeltaTime;
+        return delta;
+    }
+
+    private bool CanMoveTo(Vector3 pos)
+    {
+        // get tile type on my level
+        TileType tType = LevelManager.instance.GetTileType(pos, level);
+
+        // dont walk into cliffs
+        if (tType == TileType.Cliff) return false;
+
+        // you can walk down along ramp
+        if (curTile == TileType.Ramp) return true;
+        if (curTileLower == TileType.Ramp) return true;
+
+        // dont walk into the sides of floors
+        if (tType == TileType.Floor) return false;
+
+        // you cant fall off ground level
+        if (level < 1) return true;
+
+        // get tile type on lower level
+        tType = LevelManager.instance.GetTileType(pos, level - 1);
+
+        // dont walk off cliffs
+        if (tType == TileType.None) return false;
+        if (tType == TileType.Cliff) return false;
+
+        // by default you are free to walk
+        return true;
     }
 
     void ReadInputs()
@@ -106,11 +206,11 @@ public class PlayerMove : MonoBehaviour
 
     void FindPlayerDirection()
     {
-        myInput = aimInput.magnitude < 0.01f ? moveInput : aimInput;
-        if (myInput.sqrMagnitude > 0.01f) myNorm = myInput.normalized;
+        myInput = aimInput.magnitude < INPUT_THRESHOLD ? moveInput : aimInput;
+        if (myInput.sqrMagnitude > INPUT_THRESHOLD) myNorm = myInput.normalized;
 
-        if (myNorm.x < -0.01f) dir = -1;
-        else if (myNorm.x > 0.01f) dir = 1;
+        if (myNorm.x < -INPUT_THRESHOLD) dir = -1;
+        else if (myNorm.x > INPUT_THRESHOLD) dir = 1;
     }
 
     void FlipPlayer()
@@ -204,6 +304,7 @@ public class PlayerMove : MonoBehaviour
         GameObject b = Instantiate(gun.bulletPrefab, firePoint.position, rot, bulletFolder);
 
         b.GetComponent<Rigidbody2D>().linearVelocity = rot * Vector2.up * gun.bulletSpeed;
+        b.GetComponent<Bullet>().level = level;
 
         Vector3 recoilDirLocal = gunTransform.InverseTransformDirection(-gunHolder.right);
         recoilOffset += recoilDirLocal * gun.recoilDistance;
