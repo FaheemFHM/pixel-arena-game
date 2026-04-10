@@ -16,7 +16,7 @@ public class MainMenu : MonoBehaviour, IMenu
         SelectButton(0);
     }
 
-    public void OnButtonSelected(GameObject buttonObj)
+    public void OnButtonSelected(GameObject buttonObj, bool isPointer)
     {
         for (int i = 0; i < buttons.Length; i++)
         {

@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,7 +9,7 @@ public class CharacterSelect : MonoBehaviour, IMenu
     private Vector3 arrowStartPos;
 
     [SerializeField] private Button[] buttons;
-    private int selectedIndex;
+    [SerializeField] private int selectedIndex;
 
     private void Awake()
     {
@@ -16,7 +17,7 @@ public class CharacterSelect : MonoBehaviour, IMenu
         SelectButton(0);
     }
 
-    public void OnButtonSelected(GameObject buttonObj)
+    public void OnButtonSelected(GameObject buttonObj, bool isPointer)
     {
         for (int i = 0; i < buttons.Length; i++)
         {

@@ -12,12 +12,12 @@ public class MenuButton : MonoBehaviour, IPointerEnterHandler, ISelectHandler
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        menu.OnButtonSelected(gameObject);
+        menu.OnButtonSelected(gameObject, true);
         EventSystem.current.SetSelectedGameObject(gameObject);
     }
 
     public void OnSelect(BaseEventData eventData)
     {
-        menu.OnButtonSelected(gameObject);
+        menu.OnButtonSelected(gameObject, false);
     }
 }
