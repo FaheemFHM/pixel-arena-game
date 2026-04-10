@@ -14,8 +14,10 @@ public class UIManager : MonoBehaviour
     public static UIManager instance { get; private set; }
 
     [SerializeField] private List<StatBarEntry> statBars;
-
     private Dictionary<StatType, Slider> bars;
+
+    [SerializeField] private RectTransform minimapPlayer;
+    private Transform playerRot;
 
     private void Awake()
     {
@@ -38,10 +40,8 @@ public class UIManager : MonoBehaviour
     void CreateStatsDict()
     {
         bars = new Dictionary<StatType, Slider>();
-
-        foreach (var entry in statBars)
-        {
-            bars[entry.type] = entry.slider;
-        }
+        foreach (var entry in statBars) bars[entry.type] = entry.slider;
     }
+
+    public void SetPlayerRot(float rot) => minimapPlayer.rotation = Quaternion.Euler(0, 0, rot);
 }

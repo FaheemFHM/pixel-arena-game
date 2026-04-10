@@ -101,6 +101,7 @@ public class PlayerMove : MonoBehaviour
 
         AimGun();
         UpdateCrosshair();
+        UpdateMinimap();
 
         HandleShooting();
         ReturnRecoil();
@@ -289,6 +290,13 @@ public class PlayerMove : MonoBehaviour
 
         // crosshair scale
         crosshair.localScale = Vector3.one * t;
+    }
+
+    void UpdateMinimap()
+    {
+        float rot = Mathf.Atan2(moveNorm.x, moveNorm.y) * Mathf.Rad2Deg;
+        rot = (rot + 360f) % 360f;
+        UIManager.instance.SetPlayerRot(-rot);
     }
 
     void HandleShooting()
