@@ -23,8 +23,12 @@ public class UIManager : MonoBehaviour
 
     // minimap markers
     public List<MinimapMarker> mapMarkers;
-    [SerializeField] private float mapRangeMin = 10f; // max opacity within this dist
-    [SerializeField] private float mapRangeMax = 24f; // min opacity beyond this dist
+    [SerializeField] private float minimapRange = 40f;
+
+    [SerializeField] private float mapRangeMin_opacity = 16f; // max opacity within this dist
+    [SerializeField] private float mapRangeMax_opacity = 32f; // min opacity beyond this dist
+
+    [SerializeField] private float mapRangeMax_distance = 16f; // within minimap circumference if within this dist
 
     private void Awake()
     {
@@ -37,7 +41,7 @@ public class UIManager : MonoBehaviour
 
         instance = this;
 
-        // dictionary
+        // others
         CreateStatsDict();
     }
 
@@ -56,9 +60,18 @@ public class UIManager : MonoBehaviour
     {
         foreach (MinimapMarker m in mapMarkers)
         {
-            float dist = Vector3.Distance(playerPos, m.pos);
+            // position
+            Vector2 offset = m.pos - (Vector2)playerPos;
+            float dist = offset.magnitude;
+            Vector2 dir = offset.normalized;
 
-            float tOpacity = Mathf.InverseLerp(mapRangeMin, mapRangeMax, dist);
+            float t = Mathf.Clamp01(dist / mapRangeMax_distance);
+            float radius = t * minimapRange;
+
+            m.rt.anchoredPosition = dir * radius;
+
+            // opacity
+            float tOpacity = Mathf.InverseLerp(mapRangeMin_opacity, mapRangeMax_opacity, dist);
             m.img.alpha = Mathf.Lerp(1f, 0f, tOpacity);
         }
     }
