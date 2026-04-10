@@ -1,11 +1,11 @@
 using UnityEngine;
-using UnityEngine.Tilemaps;
 using System.Collections;
 
 public class PlayerMove : MonoBehaviour
 {
     private InputManager inputs;
     private Rigidbody2D rb;
+    private StatsManager stats;
 
     [Header("Movement")]
     [SerializeField, Range(0f, 10f)] private float moveSpeed = 4f;
@@ -22,6 +22,10 @@ public class PlayerMove : MonoBehaviour
     private Vector2 myNorm = Vector2.right;
 
     private float INPUT_THRESHOLD = 0.01f;
+
+    private bool isSprinting;
+    private bool requireSprintRelease = false;
+    private bool sprintReleased = true;
 
     private int dir = 1;
 
@@ -68,10 +72,12 @@ public class PlayerMove : MonoBehaviour
         // components
         inputs = GetComponent<InputManager>();
         rb = GetComponent<Rigidbody2D>();
+        stats = GetComponent<StatsManager>();
 
         // subscriptions
-        inputs.onSwitch += NextGun;
+        inputs.onSwitch += PressSwitch;
         inputs.onPrimary += PressFire;
+        inputs.onSprint += PressSprint;
 
         // gun
         gunTransform = gunHolder.GetChild(0);
@@ -82,18 +88,20 @@ public class PlayerMove : MonoBehaviour
         crossRend = crosshair.GetComponent<SpriteRenderer>();
 
         gunsIndex = guns.Length - 1;
-        NextGun();
+        PressSwitch();
     }
 
     private void Update()
     {
         ReadInputs();
+        HandleSprint();
 
         FindPlayerDirection();
         FlipPlayer();
 
         AimGun();
         UpdateCrosshair();
+        UpdateMinimap();
 
         HandleShooting();
         ReturnRecoil();
@@ -104,6 +112,38 @@ public class PlayerMove : MonoBehaviour
     private void FixedUpdate()
     {
         ApplyMove();
+    }
+
+    void HandleSprint()
+    {
+        isSprinting = false;
+
+        if (!inputs.IsSprinting) return;
+
+        if (requireSprintRelease && !sprintReleased) return;
+
+        if (!stats.HasStat(StatType.Stamina, 0.01f))
+        {
+            requireSprintRelease = true;
+            return;
+        }
+
+        isSprinting = true;
+
+        stats.EditStat(StatType.Stamina, -Time.deltaTime);
+    }
+
+    void PressSprint(bool isPressing)
+    {
+        if (isPressing)
+        {
+            sprintReleased = false;
+        }
+        else
+        {
+            sprintReleased = true;
+            requireSprintRelease = false;
+        }
     }
 
     void HandleRamps()
@@ -159,7 +199,7 @@ public class PlayerMove : MonoBehaviour
     {
         // gives the Vector2 representing unbounded movement
         Vector2 inp = new Vector2(moveNorm.x, moveNorm.y * verticalMoveDamping);
-        float speed = inputs.IsSprinting ? sprintSpeed : moveSpeed;
+        float speed = isSprinting ? sprintSpeed : moveSpeed;
         Vector2 delta = inp * speed * Time.fixedDeltaTime;
         return delta;
     }
@@ -252,27 +292,37 @@ public class PlayerMove : MonoBehaviour
         crosshair.localScale = Vector3.one * t;
     }
 
+    void UpdateMinimap()
+    {
+        float rot = Mathf.Atan2(moveNorm.x, moveNorm.y) * Mathf.Rad2Deg;
+        rot = (rot + 360f) % 360f;
+        UIManager.instance.SetPlayerRot(-rot);
+        UIManager.instance.UpdateMapMarkers(transform.position);
+    }
+
     void HandleShooting()
     {
         fireCooldown -= Time.deltaTime;
 
         if (!inputs.IsPrimary) return;
 
-        if (fireCooldown < 0f && !isBursting)
-        {
-            if ((!gun.isAuto && !hasFired) || gun.isAuto)
-            {
-                StartCoroutine(FireBurst());
-                hasFired = true;
-            }
-        }
+        if (fireCooldown > 0f) return;
+
+        if (!stats.HasStat(StatType.Ammo, gun.ammoCost)) return;
+
+        if (isBursting) return;
+
+        if (!gun.isAuto && hasFired) return;
+
+        Shoot();
     }
 
-    void ReturnRecoil()
+    void Shoot()
     {
-        recoilOffset = Vector3.Lerp(recoilOffset, Vector3.zero, gun.recoilReturnSpeed * Time.deltaTime);
-        if (recoilOffset.magnitude < 0.001f) recoilOffset = Vector3.zero;
-        gunTransform.localPosition = recoilOffset;
+        stats.EditStat(StatType.Ammo, -gun.ammoCost);
+        hasFired = true;
+
+        StartCoroutine(FireBurst());
     }
 
     IEnumerator FireBurst()
@@ -286,7 +336,7 @@ public class PlayerMove : MonoBehaviour
             for (int i = 0; i < gun.spreadCount; i++)
             {
                 float shotAngle = -totalSpread / 2f + gun.spreadAngle * i;
-                Shoot(shotAngle);
+                SpawnBullet(shotAngle);
             }
 
             if (b < gun.burstCount - 1) yield return new WaitForSeconds(gun.burstRate);
@@ -296,7 +346,7 @@ public class PlayerMove : MonoBehaviour
         isBursting = false;
     }
 
-    void Shoot(float angle)
+    void SpawnBullet(float angle)
     {
         // gun sprite faces right but the bullet one faces right
 
@@ -312,7 +362,14 @@ public class PlayerMove : MonoBehaviour
         Destroy(b, 3f);
     }
 
-    void NextGun(bool isPressing = true)
+    void ReturnRecoil()
+    {
+        recoilOffset = Vector3.Lerp(recoilOffset, Vector3.zero, gun.recoilReturnSpeed * Time.deltaTime);
+        if (recoilOffset.magnitude < 0.001f) recoilOffset = Vector3.zero;
+        gunTransform.localPosition = recoilOffset;
+    }
+
+    void PressSwitch(bool isPressing = true)
     {
         if (!isPressing) return;
 
