@@ -297,6 +297,7 @@ public class PlayerMove : MonoBehaviour
         float rot = Mathf.Atan2(moveNorm.x, moveNorm.y) * Mathf.Rad2Deg;
         rot = (rot + 360f) % 360f;
         UIManager.instance.SetPlayerRot(-rot);
+        UIManager.instance.UpdateMapMarkers(transform.position);
     }
 
     void HandleShooting()

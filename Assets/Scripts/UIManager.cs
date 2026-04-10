@@ -4,6 +4,10 @@ using System.Collections.Generic;
 
 public class UIManager : MonoBehaviour
 {
+    // singleton
+    public static UIManager instance { get; private set; }
+
+    // health, stamina, ammo
     [System.Serializable]
     public struct StatBarEntry
     {
@@ -11,13 +15,16 @@ public class UIManager : MonoBehaviour
         public Slider slider;
     }
 
-    public static UIManager instance { get; private set; }
-
     [SerializeField] private List<StatBarEntry> statBars;
     private Dictionary<StatType, Slider> bars;
 
+    // minimap player
     [SerializeField] private RectTransform minimapPlayer;
-    private Transform playerRot;
+
+    // minimap markers
+    public List<MinimapMarker> mapMarkers;
+    [SerializeField] private float mapRangeMin = 10f; // max opacity within this dist
+    [SerializeField] private float mapRangeMax = 24f; // min opacity beyond this dist
 
     private void Awake()
     {
@@ -44,4 +51,15 @@ public class UIManager : MonoBehaviour
     }
 
     public void SetPlayerRot(float rot) => minimapPlayer.rotation = Quaternion.Euler(0, 0, rot);
+
+    public void UpdateMapMarkers(Vector3 playerPos)
+    {
+        foreach (MinimapMarker m in mapMarkers)
+        {
+            float dist = Vector3.Distance(playerPos, m.pos);
+
+            float tOpacity = Mathf.InverseLerp(mapRangeMin, mapRangeMax, dist);
+            m.img.alpha = Mathf.Lerp(1f, 0f, tOpacity);
+        }
+    }
 }
