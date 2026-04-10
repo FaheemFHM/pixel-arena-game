@@ -23,6 +23,10 @@ public class PlayerMove : MonoBehaviour
 
     private float INPUT_THRESHOLD = 0.01f;
 
+    private bool isSprinting;
+    private bool requireSprintRelease = false;
+    private bool sprintReleased = true;
+
     private int dir = 1;
 
     [Header("Shooting")]
@@ -71,8 +75,9 @@ public class PlayerMove : MonoBehaviour
         stats = GetComponent<StatsManager>();
 
         // subscriptions
-        inputs.onSwitch += NextGun;
+        inputs.onSwitch += PressSwitch;
         inputs.onPrimary += PressFire;
+        inputs.onSprint += PressSprint;
 
         // gun
         gunTransform = gunHolder.GetChild(0);
@@ -83,12 +88,13 @@ public class PlayerMove : MonoBehaviour
         crossRend = crosshair.GetComponent<SpriteRenderer>();
 
         gunsIndex = guns.Length - 1;
-        NextGun();
+        PressSwitch();
     }
 
     private void Update()
     {
         ReadInputs();
+        HandleSprint();
 
         FindPlayerDirection();
         FlipPlayer();
@@ -105,6 +111,38 @@ public class PlayerMove : MonoBehaviour
     private void FixedUpdate()
     {
         ApplyMove();
+    }
+
+    void HandleSprint()
+    {
+        isSprinting = false;
+
+        if (!inputs.IsSprinting) return;
+
+        if (requireSprintRelease && !sprintReleased) return;
+
+        if (!stats.HasStat(StatType.Stamina, 0.01f))
+        {
+            requireSprintRelease = true;
+            return;
+        }
+
+        isSprinting = true;
+
+        stats.EditStat(StatType.Stamina, -Time.deltaTime);
+    }
+
+    void PressSprint(bool isPressing)
+    {
+        if (isPressing)
+        {
+            sprintReleased = false;
+        }
+        else
+        {
+            sprintReleased = true;
+            requireSprintRelease = false;
+        }
     }
 
     void HandleRamps()
@@ -160,7 +198,7 @@ public class PlayerMove : MonoBehaviour
     {
         // gives the Vector2 representing unbounded movement
         Vector2 inp = new Vector2(moveNorm.x, moveNorm.y * verticalMoveDamping);
-        float speed = inputs.IsSprinting ? sprintSpeed : moveSpeed;
+        float speed = isSprinting ? sprintSpeed : moveSpeed;
         Vector2 delta = inp * speed * Time.fixedDeltaTime;
         return delta;
     }
@@ -261,7 +299,7 @@ public class PlayerMove : MonoBehaviour
 
         if (fireCooldown > 0f) return;
 
-        if (!stats.HasAmmo(gun.ammoCost)) return;
+        if (!stats.HasStat(StatType.Ammo, gun.ammoCost)) return;
 
         if (isBursting) return;
 
@@ -322,7 +360,7 @@ public class PlayerMove : MonoBehaviour
         gunTransform.localPosition = recoilOffset;
     }
 
-    void NextGun(bool isPressing = true)
+    void PressSwitch(bool isPressing = true)
     {
         if (!isPressing) return;
 

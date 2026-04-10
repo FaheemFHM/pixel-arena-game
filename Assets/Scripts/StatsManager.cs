@@ -91,10 +91,11 @@ public class StatsManager : MonoBehaviour
         UIManager.instance.SetValue(sType, s.val);
     }
 
-    public bool HasAmmo(int ammoCost)
+    public bool HasStat(StatType sType, float cost)
     {
-        return stats[StatType.Ammo].val >= ammoCost;
+        return stats[sType].val >= cost;
     }
+
 
     void CreateStatsDict()
     {
