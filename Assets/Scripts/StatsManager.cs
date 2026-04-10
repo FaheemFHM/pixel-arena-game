@@ -84,4 +84,9 @@ public class StatsManager : MonoBehaviour
 
         UIManager.instance.SetAmmo(ammo);
     }
+
+    public bool HasAmmo(int ammoCost)
+    {
+        return ammo >= ammoCost;
+    }
 }

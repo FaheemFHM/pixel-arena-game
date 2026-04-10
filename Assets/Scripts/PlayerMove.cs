@@ -259,21 +259,23 @@ public class PlayerMove : MonoBehaviour
 
         if (!inputs.IsPrimary) return;
 
-        if (fireCooldown < 0f && !isBursting)
-        {
-            if ((!gun.isAuto && !hasFired) || gun.isAuto)
-            {
-                StartCoroutine(FireBurst());
-                hasFired = true;
-            }
-        }
+        if (fireCooldown > 0f) return;
+
+        if (!stats.HasAmmo(gun.ammoCost)) return;
+
+        if (isBursting) return;
+
+        if (!gun.isAuto && hasFired) return;
+
+        Shoot();
     }
 
-    void ReturnRecoil()
+    void Shoot()
     {
-        recoilOffset = Vector3.Lerp(recoilOffset, Vector3.zero, gun.recoilReturnSpeed * Time.deltaTime);
-        if (recoilOffset.magnitude < 0.001f) recoilOffset = Vector3.zero;
-        gunTransform.localPosition = recoilOffset;
+        stats.EditAmmo(-gun.ammoCost);
+        hasFired = true;
+
+        StartCoroutine(FireBurst());
     }
 
     IEnumerator FireBurst()
@@ -287,7 +289,7 @@ public class PlayerMove : MonoBehaviour
             for (int i = 0; i < gun.spreadCount; i++)
             {
                 float shotAngle = -totalSpread / 2f + gun.spreadAngle * i;
-                Shoot(shotAngle);
+                SpawnBullet(shotAngle);
             }
 
             if (b < gun.burstCount - 1) yield return new WaitForSeconds(gun.burstRate);
@@ -297,7 +299,7 @@ public class PlayerMove : MonoBehaviour
         isBursting = false;
     }
 
-    void Shoot(float angle)
+    void SpawnBullet(float angle)
     {
         // gun sprite faces right but the bullet one faces right
 
@@ -311,6 +313,13 @@ public class PlayerMove : MonoBehaviour
         recoilOffset += recoilDirLocal * gun.recoilDistance;
 
         Destroy(b, 3f);
+    }
+
+    void ReturnRecoil()
+    {
+        recoilOffset = Vector3.Lerp(recoilOffset, Vector3.zero, gun.recoilReturnSpeed * Time.deltaTime);
+        if (recoilOffset.magnitude < 0.001f) recoilOffset = Vector3.zero;
+        gunTransform.localPosition = recoilOffset;
     }
 
     void NextGun(bool isPressing = true)
