@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MainMenu : MonoBehaviour, IMenu
+public class CharacterSelect : MonoBehaviour, IMenu
 {
     [SerializeField] private RectTransform arrow;
     [SerializeField] private float buttonSeparation;
@@ -32,11 +32,6 @@ public class MainMenu : MonoBehaviour, IMenu
     {
         selectedIndex = newIndex;
 
-        arrow.anchoredPosition = arrowStartPos - (Vector3.up * buttonSeparation * newIndex);
-
-        for (int i = 0; i < buttons.Length; i++)
-        {
-            buttons[i].transform.GetChild(1).gameObject.SetActive(i == selectedIndex);
-        }
+        arrow.anchoredPosition = arrowStartPos + (Vector3.right * buttonSeparation * newIndex);
     }
 }

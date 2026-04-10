@@ -1,9 +1,14 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class ButtonHover : MonoBehaviour, IPointerEnterHandler, ISelectHandler
+public class MenuButton : MonoBehaviour, IPointerEnterHandler, ISelectHandler
 {
-    [SerializeField] private MainMenu menu;
+    private IMenu menu;
+
+    private void Awake()
+    {
+        menu = GetComponentInParent<IMenu>();
+    }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
