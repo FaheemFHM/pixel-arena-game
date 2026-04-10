@@ -1,11 +1,11 @@
 using UnityEngine;
-using UnityEngine.Tilemaps;
 using System.Collections;
 
 public class PlayerMove : MonoBehaviour
 {
     private InputManager inputs;
     private Rigidbody2D rb;
+    private StatsManager stats;
 
     [Header("Movement")]
     [SerializeField, Range(0f, 10f)] private float moveSpeed = 4f;
@@ -68,6 +68,7 @@ public class PlayerMove : MonoBehaviour
         // components
         inputs = GetComponent<InputManager>();
         rb = GetComponent<Rigidbody2D>();
+        stats = GetComponent<StatsManager>();
 
         // subscriptions
         inputs.onSwitch += NextGun;
