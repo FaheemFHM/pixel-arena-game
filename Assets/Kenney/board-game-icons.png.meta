@@ -1,0 +1,7031 @@
+fileFormatVersion: 2
+guid: f6a6cf2a6cd48e246b50eddc8c2bf50e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 982389693575414521
+    second: iconsDouble_0
+  - first:
+      213: -6598927523309431585
+    second: iconsDouble_1
+  - first:
+      213: 6098305912376659473
+    second: iconsDouble_2
+  - first:
+      213: 2974288429427871353
+    second: iconsDouble_3
+  - first:
+      213: -872370471552424328
+    second: iconsDouble_4
+  - first:
+      213: -6703057020515600733
+    second: iconsDouble_5
+  - first:
+      213: 799356483310813009
+    second: iconsDouble_6
+  - first:
+      213: -7041741411387048453
+    second: iconsDouble_7
+  - first:
+      213: -1804204028169769908
+    second: iconsDouble_8
+  - first:
+      213: -2349068447536549082
+    second: iconsDouble_9
+  - first:
+      213: -6033781660801690456
+    second: iconsDouble_10
+  - first:
+      213: -2872110601170209660
+    second: iconsDouble_11
+  - first:
+      213: -3300913946148686512
+    second: iconsDouble_12
+  - first:
+      213: 6528932855543170211
+    second: iconsDouble_13
+  - first:
+      213: 5206887714549724811
+    second: iconsDouble_14
+  - first:
+      213: -2949777807925768277
+    second: iconsDouble_15
+  - first:
+      213: -3350422810190158332
+    second: iconsDouble_16
+  - first:
+      213: -4147598811397277642
+    second: iconsDouble_17
+  - first:
+      213: -4875493603377319942
+    second: iconsDouble_18
+  - first:
+      213: -5787731472438524462
+    second: iconsDouble_19
+  - first:
+      213: -2946319056441350428
+    second: iconsDouble_20
+  - first:
+      213: -4498353345621691886
+    second: iconsDouble_21
+  - first:
+      213: 8430858071301719610
+    second: iconsDouble_22
+  - first:
+      213: 1815070978764260429
+    second: iconsDouble_23
+  - first:
+      213: 8249180382137098545
+    second: iconsDouble_24
+  - first:
+      213: -5805186543646541643
+    second: iconsDouble_25
+  - first:
+      213: 8979465564223987175
+    second: iconsDouble_26
+  - first:
+      213: 1446301798955443539
+    second: iconsDouble_27
+  - first:
+      213: -6878105197863515632
+    second: iconsDouble_28
+  - first:
+      213: 4385066598894664068
+    second: iconsDouble_29
+  - first:
+      213: -7133741453818119726
+    second: iconsDouble_30
+  - first:
+      213: 8071968025129481520
+    second: iconsDouble_31
+  - first:
+      213: 7533932062359790375
+    second: iconsDouble_32
+  - first:
+      213: 8770174245791530415
+    second: iconsDouble_33
+  - first:
+      213: 582877454987780634
+    second: iconsDouble_34
+  - first:
+      213: 306248870528663528
+    second: iconsDouble_35
+  - first:
+      213: -8341935074438635825
+    second: iconsDouble_36
+  - first:
+      213: 2002440874911333097
+    second: iconsDouble_37
+  - first:
+      213: 3085196222985481312
+    second: iconsDouble_38
+  - first:
+      213: -9084087988753501079
+    second: iconsDouble_39
+  - first:
+      213: -609488019618750007
+    second: iconsDouble_40
+  - first:
+      213: 1585287702861338163
+    second: iconsDouble_41
+  - first:
+      213: 8398043820613647762
+    second: iconsDouble_42
+  - first:
+      213: 6278547158835419034
+    second: iconsDouble_43
+  - first:
+      213: -5039899739667953081
+    second: iconsDouble_44
+  - first:
+      213: 4145940362326280904
+    second: iconsDouble_45
+  - first:
+      213: 7580680757521143452
+    second: iconsDouble_46
+  - first:
+      213: -2256731327402119108
+    second: iconsDouble_47
+  - first:
+      213: 1277656573091379144
+    second: iconsDouble_48
+  - first:
+      213: -7274647883355731449
+    second: iconsDouble_49
+  - first:
+      213: -5726985479706583296
+    second: iconsDouble_50
+  - first:
+      213: 4346669109880247276
+    second: iconsDouble_51
+  - first:
+      213: 3925411572270508795
+    second: iconsDouble_52
+  - first:
+      213: -1711527488457288644
+    second: iconsDouble_53
+  - first:
+      213: -54411279729437906
+    second: iconsDouble_54
+  - first:
+      213: -1911990899950643665
+    second: iconsDouble_55
+  - first:
+      213: -646852472623184905
+    second: iconsDouble_56
+  - first:
+      213: 1413733508789431986
+    second: iconsDouble_57
+  - first:
+      213: -768223384372581166
+    second: iconsDouble_58
+  - first:
+      213: 1623598321684887980
+    second: iconsDouble_59
+  - first:
+      213: -5111256369326832123
+    second: iconsDouble_60
+  - first:
+      213: 7829506420157817016
+    second: iconsDouble_61
+  - first:
+      213: 6788568249749457161
+    second: iconsDouble_62
+  - first:
+      213: -4107876086560977875
+    second: iconsDouble_63
+  - first:
+      213: 4624241298008135648
+    second: iconsDouble_64
+  - first:
+      213: -2668522934367151410
+    second: iconsDouble_65
+  - first:
+      213: 520799813809492707
+    second: iconsDouble_66
+  - first:
+      213: 8541173425600985684
+    second: iconsDouble_67
+  - first:
+      213: 4091382065329386419
+    second: iconsDouble_68
+  - first:
+      213: -5863510972738849651
+    second: iconsDouble_69
+  - first:
+      213: 447144254167687162
+    second: iconsDouble_70
+  - first:
+      213: 4401793959305675166
+    second: iconsDouble_71
+  - first:
+      213: -8043730543300709990
+    second: iconsDouble_72
+  - first:
+      213: 5099679598266481800
+    second: iconsDouble_73
+  - first:
+      213: -7293702110417511957
+    second: iconsDouble_74
+  - first:
+      213: 8485824080138158685
+    second: iconsDouble_75
+  - first:
+      213: -2826101388582072433
+    second: iconsDouble_76
+  - first:
+      213: 8460554189353772027
+    second: iconsDouble_77
+  - first:
+      213: 8497064281039093901
+    second: iconsDouble_78
+  - first:
+      213: -5809291481482522582
+    second: iconsDouble_79
+  - first:
+      213: -1156336908926119520
+    second: iconsDouble_80
+  - first:
+      213: 2553027071785946894
+    second: iconsDouble_81
+  - first:
+      213: 5539892115564241675
+    second: iconsDouble_82
+  - first:
+      213: 4034397410992472848
+    second: iconsDouble_83
+  - first:
+      213: -8865669704753607911
+    second: iconsDouble_84
+  - first:
+      213: 2737462233403410649
+    second: iconsDouble_85
+  - first:
+      213: -2089548980599291760
+    second: iconsDouble_86
+  - first:
+      213: 3840611151399727151
+    second: iconsDouble_87
+  - first:
+      213: 7296661268743600263
+    second: iconsDouble_88
+  - first:
+      213: -7412031776192938596
+    second: iconsDouble_89
+  - first:
+      213: -9003860070410069321
+    second: iconsDouble_90
+  - first:
+      213: -5639358192725823852
+    second: iconsDouble_91
+  - first:
+      213: -5008036936571996760
+    second: iconsDouble_92
+  - first:
+      213: -2508818412155703055
+    second: iconsDouble_93
+  - first:
+      213: 6600689639460203883
+    second: iconsDouble_94
+  - first:
+      213: -2991079136659668565
+    second: iconsDouble_95
+  - first:
+      213: 582223372152163581
+    second: iconsDouble_96
+  - first:
+      213: 5740102384019764436
+    second: iconsDouble_97
+  - first:
+      213: -9025925525003996942
+    second: iconsDouble_98
+  - first:
+      213: -7106868112546677507
+    second: iconsDouble_99
+  - first:
+      213: -4453287603501860433
+    second: iconsDouble_100
+  - first:
+      213: 5763706145044690959
+    second: iconsDouble_101
+  - first:
+      213: 495208360002433342
+    second: iconsDouble_102
+  - first:
+      213: -1046611956036530749
+    second: iconsDouble_103
+  - first:
+      213: -5219116805055596986
+    second: iconsDouble_104
+  - first:
+      213: 7416213244148864596
+    second: iconsDouble_105
+  - first:
+      213: -4068614650068763510
+    second: iconsDouble_106
+  - first:
+      213: -3998643745386493243
+    second: iconsDouble_107
+  - first:
+      213: 1618180407995344830
+    second: iconsDouble_108
+  - first:
+      213: 1883105161389308589
+    second: iconsDouble_109
+  - first:
+      213: 2410037155754104259
+    second: iconsDouble_110
+  - first:
+      213: -6119621966103855155
+    second: iconsDouble_111
+  - first:
+      213: -8568657891033904502
+    second: iconsDouble_112
+  - first:
+      213: -835072271534908849
+    second: iconsDouble_113
+  - first:
+      213: -727948053082718086
+    second: iconsDouble_114
+  - first:
+      213: 596105077490355581
+    second: iconsDouble_115
+  - first:
+      213: 4519524671801039615
+    second: iconsDouble_116
+  - first:
+      213: -1073896704108500266
+    second: iconsDouble_117
+  - first:
+      213: 3140187629039599892
+    second: iconsDouble_118
+  - first:
+      213: -6268841035154403844
+    second: iconsDouble_119
+  - first:
+      213: 7125570677238097652
+    second: iconsDouble_120
+  - first:
+      213: 3076536594468109602
+    second: iconsDouble_121
+  - first:
+      213: 8677293134802208744
+    second: iconsDouble_122
+  - first:
+      213: -120648560299184735
+    second: iconsDouble_123
+  - first:
+      213: 1253840278621661149
+    second: iconsDouble_124
+  - first:
+      213: -2273255835764645113
+    second: iconsDouble_125
+  - first:
+      213: -256267072104530561
+    second: iconsDouble_126
+  - first:
+      213: -7296705867103751101
+    second: iconsDouble_127
+  - first:
+      213: 2829462626010516527
+    second: iconsDouble_128
+  - first:
+      213: -2516450652817465363
+    second: iconsDouble_129
+  - first:
+      213: 2891416479003021383
+    second: iconsDouble_130
+  - first:
+      213: -692457098666085288
+    second: iconsDouble_131
+  - first:
+      213: 1151820243374621653
+    second: iconsDouble_132
+  - first:
+      213: -5441418709662597296
+    second: iconsDouble_133
+  - first:
+      213: 5677286725296042904
+    second: iconsDouble_134
+  - first:
+      213: 3671229216393096557
+    second: iconsDouble_135
+  - first:
+      213: 8449175581881576542
+    second: iconsDouble_136
+  - first:
+      213: 146430306256052123
+    second: iconsDouble_137
+  - first:
+      213: -3852351029488342178
+    second: iconsDouble_138
+  - first:
+      213: 645443962458312758
+    second: iconsDouble_139
+  - first:
+      213: 6291037347740681738
+    second: iconsDouble_140
+  - first:
+      213: -1828487339496259489
+    second: iconsDouble_141
+  - first:
+      213: 8656686756665292695
+    second: iconsDouble_142
+  - first:
+      213: -6667379064373758985
+    second: iconsDouble_143
+  - first:
+      213: 6437955956950425567
+    second: iconsDouble_144
+  - first:
+      213: -8550706158817024695
+    second: iconsDouble_145
+  - first:
+      213: -7402566921141612678
+    second: iconsDouble_146
+  - first:
+      213: 421632185586401301
+    second: iconsDouble_147
+  - first:
+      213: -5252088130982310772
+    second: iconsDouble_148
+  - first:
+      213: -7908175828589776817
+    second: iconsDouble_149
+  - first:
+      213: -230051328103264735
+    second: iconsDouble_150
+  - first:
+      213: 1538518044046191111
+    second: iconsDouble_151
+  - first:
+      213: 6288726887322143531
+    second: iconsDouble_152
+  - first:
+      213: -7773827040161668955
+    second: iconsDouble_153
+  - first:
+      213: -4804874020217146283
+    second: iconsDouble_154
+  - first:
+      213: -3996491239821496260
+    second: iconsDouble_155
+  - first:
+      213: 7684454297160975050
+    second: iconsDouble_156
+  - first:
+      213: 4519029651910597602
+    second: iconsDouble_157
+  - first:
+      213: 8224051951337868790
+    second: iconsDouble_158
+  - first:
+      213: 8107471983902041990
+    second: iconsDouble_159
+  - first:
+      213: 51175224691872209
+    second: iconsDouble_160
+  - first:
+      213: 2895782830680975937
+    second: iconsDouble_161
+  - first:
+      213: 5184731264387685271
+    second: iconsDouble_162
+  - first:
+      213: -6147547816823563120
+    second: iconsDouble_163
+  - first:
+      213: 5860235820792970412
+    second: iconsDouble_164
+  - first:
+      213: -1251281030449269043
+    second: iconsDouble_165
+  - first:
+      213: -1408994938285496817
+    second: iconsDouble_166
+  - first:
+      213: 2210244087275953897
+    second: iconsDouble_167
+  - first:
+      213: 7810286664272742724
+    second: iconsDouble_168
+  - first:
+      213: -5234798079016769531
+    second: iconsDouble_169
+  - first:
+      213: 5752185605443491871
+    second: iconsDouble_170
+  - first:
+      213: 5949351769933099099
+    second: iconsDouble_171
+  - first:
+      213: 4448125752547614535
+    second: iconsDouble_172
+  - first:
+      213: 5785229885646613771
+    second: iconsDouble_173
+  - first:
+      213: -6934250479096314670
+    second: iconsDouble_174
+  - first:
+      213: 8633445629836135516
+    second: iconsDouble_175
+  - first:
+      213: 4795552243062743951
+    second: iconsDouble_176
+  - first:
+      213: -2579212975169906432
+    second: iconsDouble_177
+  - first:
+      213: 2313683359186298382
+    second: iconsDouble_178
+  - first:
+      213: 2498882815521277148
+    second: iconsDouble_179
+  - first:
+      213: 8619402869830475548
+    second: iconsDouble_180
+  - first:
+      213: 2201965621025483117
+    second: iconsDouble_181
+  - first:
+      213: 8502676490045047462
+    second: iconsDouble_182
+  - first:
+      213: 7192401289204717633
+    second: iconsDouble_183
+  - first:
+      213: 2336739444698196650
+    second: iconsDouble_184
+  - first:
+      213: -6074905680013041011
+    second: iconsDouble_185
+  - first:
+      213: -7543335747364435925
+    second: iconsDouble_186
+  - first:
+      213: 6141133163657094273
+    second: iconsDouble_187
+  - first:
+      213: -7623596322430913227
+    second: iconsDouble_188
+  - first:
+      213: 8480320301579858998
+    second: iconsDouble_189
+  - first:
+      213: -6817585707721010111
+    second: iconsDouble_190
+  - first:
+      213: -7249347996578918504
+    second: iconsDouble_191
+  - first:
+      213: -4048246767044518214
+    second: iconsDouble_192
+  - first:
+      213: 1526120034418104065
+    second: iconsDouble_193
+  - first:
+      213: 7565945573043093315
+    second: iconsDouble_194
+  - first:
+      213: 7082819582577849614
+    second: iconsDouble_195
+  - first:
+      213: 7451171339264820066
+    second: iconsDouble_196
+  - first:
+      213: -6495413044971090777
+    second: iconsDouble_197
+  - first:
+      213: -1384668639492518859
+    second: iconsDouble_198
+  - first:
+      213: -8944053617675341993
+    second: iconsDouble_199
+  - first:
+      213: 3682954168467452479
+    second: iconsDouble_200
+  - first:
+      213: -7133599608730064604
+    second: iconsDouble_201
+  - first:
+      213: -2114502079977992742
+    second: iconsDouble_202
+  - first:
+      213: -8685636000328336877
+    second: iconsDouble_203
+  - first:
+      213: -9208050887565763068
+    second: iconsDouble_204
+  - first:
+      213: -8243215510807660913
+    second: iconsDouble_205
+  - first:
+      213: -2594020709203361402
+    second: iconsDouble_206
+  - first:
+      213: -8485748420550201017
+    second: iconsDouble_207
+  - first:
+      213: -5668722678934706116
+    second: iconsDouble_208
+  - first:
+      213: 4429973208839333201
+    second: iconsDouble_209
+  - first:
+      213: -4451736752596323504
+    second: iconsDouble_210
+  - first:
+      213: 3237071723825613087
+    second: iconsDouble_211
+  - first:
+      213: 1117736532246386041
+    second: iconsDouble_212
+  - first:
+      213: 6587144132906785353
+    second: iconsDouble_213
+  - first:
+      213: 8804455472439653921
+    second: iconsDouble_214
+  - first:
+      213: -7574547696708577345
+    second: iconsDouble_215
+  - first:
+      213: 5942382548038974355
+    second: iconsDouble_216
+  - first:
+      213: -3112408904338136934
+    second: iconsDouble_217
+  - first:
+      213: -1900626833372482868
+    second: iconsDouble_218
+  - first:
+      213: -3345604789686765791
+    second: iconsDouble_219
+  - first:
+      213: -378929950989088907
+    second: iconsDouble_220
+  - first:
+      213: 2742714404593803618
+    second: iconsDouble_221
+  - first:
+      213: -283725459214475969
+    second: iconsDouble_222
+  - first:
+      213: 1375220297941105777
+    second: iconsDouble_223
+  - first:
+      213: -7814483854262392593
+    second: iconsDouble_224
+  - first:
+      213: 2585075065286029124
+    second: iconsDouble_225
+  - first:
+      213: 3716674325942931762
+    second: iconsDouble_226
+  - first:
+      213: 5197916860337195565
+    second: iconsDouble_227
+  - first:
+      213: 8377614576363621535
+    second: iconsDouble_228
+  - first:
+      213: 6343619428681564677
+    second: iconsDouble_229
+  - first:
+      213: -7876756451836495696
+    second: iconsDouble_230
+  - first:
+      213: 52475013886855177
+    second: iconsDouble_231
+  - first:
+      213: 721175475108687353
+    second: iconsDouble_232
+  - first:
+      213: -9079998098379675979
+    second: iconsDouble_233
+  - first:
+      213: 486560660555012155
+    second: iconsDouble_234
+  - first:
+      213: 5953416314496046736
+    second: iconsDouble_235
+  - first:
+      213: 3448696032621108189
+    second: iconsDouble_236
+  - first:
+      213: 6493997371797413230
+    second: iconsDouble_237
+  - first:
+      213: 1919478389590864843
+    second: iconsDouble_238
+  - first:
+      213: 2000482538152977179
+    second: iconsDouble_239
+  - first:
+      213: 3632484452965227772
+    second: iconsDouble_240
+  - first:
+      213: -5415045253924821531
+    second: iconsDouble_241
+  - first:
+      213: 7168395204464279838
+    second: iconsDouble_242
+  - first:
+      213: -4136603908606451974
+    second: iconsDouble_243
+  - first:
+      213: 4614319505125213761
+    second: iconsDouble_244
+  - first:
+      213: 6551870377010947124
+    second: iconsDouble_245
+  - first:
+      213: 2021445505382693293
+    second: iconsDouble_246
+  - first:
+      213: -8959037668560116668
+    second: iconsDouble_247
+  - first:
+      213: 1012798737580015134
+    second: iconsDouble_248
+  - first:
+      213: -4145942790056326542
+    second: iconsDouble_249
+  - first:
+      213: -1013358682187780239
+    second: iconsDouble_250
+  - first:
+      213: -8657934722947659430
+    second: iconsDouble_251
+  - first:
+      213: -8555273632939482925
+    second: iconsDouble_252
+  - first:
+      213: -1336308773360571059
+    second: iconsDouble_253
+  - first:
+      213: -728383898121784236
+    second: iconsDouble_254
+  - first:
+      213: 4495088423747006427
+    second: iconsDouble_255
+  - first:
+      213: -1722195216227411457
+    second: iconsDouble_256
+  - first:
+      213: 4639377647149379675
+    second: iconsDouble_257
+  - first:
+      213: 1175901844054582144
+    second: iconsDouble_258
+  - first:
+      213: -3826658513093516141
+    second: iconsDouble_259
+  - first:
+      213: 7316969990185648620
+    second: iconsDouble_260
+  - first:
+      213: -743297068232073306
+    second: iconsDouble_261
+  - first:
+      213: 776540430520122694
+    second: iconsDouble_262
+  - first:
+      213: 7663507621654937539
+    second: iconsDouble_263
+  - first:
+      213: 9026351365432747021
+    second: iconsDouble_264
+  - first:
+      213: -3345153957549899169
+    second: iconsDouble_265
+  - first:
+      213: -1870271489965378321
+    second: iconsDouble_266
+  - first:
+      213: -452286036007954530
+    second: iconsDouble_267
+  - first:
+      213: -7512814739491765384
+    second: iconsDouble_268
+  - first:
+      213: -7342763362609622948
+    second: iconsDouble_269
+  - first:
+      213: -8675047138551059010
+    second: iconsDouble_270
+  - first:
+      213: -2727150121893354584
+    second: iconsDouble_271
+  - first:
+      213: -2770976770144517810
+    second: iconsDouble_272
+  - first:
+      213: -4056469655664396148
+    second: iconsDouble_273
+  - first:
+      213: -1331511792910978096
+    second: iconsDouble_274
+  - first:
+      213: -1252248897001309002
+    second: iconsDouble_275
+  - first:
+      213: 6072747648579162582
+    second: iconsDouble_276
+  - first:
+      213: 138836740580214128
+    second: iconsDouble_277
+  - first:
+      213: 2227018282072341301
+    second: iconsDouble_278
+  - first:
+      213: 1618107730953588709
+    second: iconsDouble_279
+  - first:
+      213: -47292023356613661
+    second: iconsDouble_280
+  - first:
+      213: 6137180018004868908
+    second: iconsDouble_281
+  - first:
+      213: -8196899073514633512
+    second: iconsDouble_282
+  - first:
+      213: 766256849623721156
+    second: iconsDouble_283
+  - first:
+      213: 8420367284072678655
+    second: iconsDouble_284
+  - first:
+      213: 9124362044641299984
+    second: iconsDouble_285
+  - first:
+      213: -2576496222156150745
+    second: iconsDouble_286
+  - first:
+      213: 7028721776253181732
+    second: iconsDouble_287
+  - first:
+      213: 6256445499599947757
+    second: iconsDouble_288
+  - first:
+      213: 1824957917426131066
+    second: iconsDouble_289
+  - first:
+      213: 5815994245591407548
+    second: iconsDouble_290
+  - first:
+      213: 735588763710792046
+    second: iconsDouble_291
+  - first:
+      213: 2981950739786930748
+    second: iconsDouble_292
+  - first:
+      213: -2837617752456465131
+    second: iconsDouble_293
+  - first:
+      213: 4662266022965109780
+    second: iconsDouble_294
+  - first:
+      213: 4630537091986653691
+    second: iconsDouble_295
+  - first:
+      213: 24409693293833694
+    second: iconsDouble_296
+  - first:
+      213: -6303070137866304854
+    second: iconsDouble_297
+  - first:
+      213: -5675107634566020669
+    second: iconsDouble_298
+  - first:
+      213: 8725649757449689072
+    second: iconsDouble_299
+  - first:
+      213: -5290361498080486370
+    second: iconsDouble_300
+  - first:
+      213: 1330259959322112393
+    second: iconsDouble_301
+  - first:
+      213: -2860215205418914038
+    second: iconsDouble_302
+  - first:
+      213: 3832361749674707321
+    second: iconsDouble_303
+  - first:
+      213: 2101446119958809173
+    second: iconsDouble_304
+  - first:
+      213: -8680736650673732581
+    second: iconsDouble_305
+  - first:
+      213: -1055235432423265663
+    second: iconsDouble_306
+  - first:
+      213: -7646102926793809509
+    second: iconsDouble_307
+  - first:
+      213: 2436445905166217167
+    second: iconsDouble_308
+  - first:
+      213: 4973716134851668424
+    second: iconsDouble_309
+  - first:
+      213: 6773402436570843727
+    second: iconsDouble_310
+  - first:
+      213: 534831829377049601
+    second: iconsDouble_311
+  - first:
+      213: 1974736279744649863
+    second: iconsDouble_312
+  - first:
+      213: 3233032521885412226
+    second: iconsDouble_313
+  - first:
+      213: 7109757715501690054
+    second: iconsDouble_314
+  - first:
+      213: 2664793313135907444
+    second: iconsDouble_315
+  - first:
+      213: -8315456174864247897
+    second: iconsDouble_316
+  - first:
+      213: -1505947267203310081
+    second: iconsDouble_317
+  - first:
+      213: 6506278850104113105
+    second: iconsDouble_318
+  - first:
+      213: -8056154108512868207
+    second: iconsDouble_319
+  - first:
+      213: -2729652376458727531
+    second: iconsDouble_320
+  - first:
+      213: -6949205767765778873
+    second: iconsDouble_321
+  - first:
+      213: 3018819277829227234
+    second: iconsDouble_322
+  - first:
+      213: 2390073545081519432
+    second: iconsDouble_323
+  - first:
+      213: -7112298154440243611
+    second: iconsDouble_324
+  - first:
+      213: 3119703616019244065
+    second: iconsDouble_325
+  - first:
+      213: 3259974761611429441
+    second: iconsDouble_326
+  - first:
+      213: -680602849210963046
+    second: iconsDouble_327
+  - first:
+      213: 6041221263084569316
+    second: iconsDouble_328
+  - first:
+      213: -6640173347598248428
+    second: iconsDouble_329
+  - first:
+      213: -1989083829246653338
+    second: iconsDouble_330
+  - first:
+      213: -7809197403073890215
+    second: iconsDouble_331
+  - first:
+      213: -3538050146395823440
+    second: iconsDouble_332
+  - first:
+      213: 5536372287419828761
+    second: iconsDouble_333
+  - first:
+      213: 6017334697954778321
+    second: iconsDouble_334
+  - first:
+      213: 8880444934212763956
+    second: iconsDouble_335
+  - first:
+      213: 7060622904274942431
+    second: iconsDouble_336
+  - first:
+      213: 8126407844818504054
+    second: iconsDouble_337
+  - first:
+      213: 1403595262964511124
+    second: iconsDouble_338
+  - first:
+      213: -4026561539994740594
+    second: iconsDouble_339
+  - first:
+      213: 2389361062119072108
+    second: iconsDouble_340
+  - first:
+      213: 1785295010692789650
+    second: iconsDouble_341
+  - first:
+      213: 7727205924074799556
+    second: iconsDouble_342
+  - first:
+      213: 4230298936586638760
+    second: iconsDouble_343
+  - first:
+      213: -7935878232673327566
+    second: iconsDouble_344
+  - first:
+      213: 6245363790316790757
+    second: iconsDouble_345
+  - first:
+      213: 6275614762654847948
+    second: iconsDouble_346
+  - first:
+      213: -7173958899237004157
+    second: iconsDouble_347
+  - first:
+      213: -1901795193613239900
+    second: iconsDouble_348
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: board-game-icons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765674396797ab54dab20230d606d62f
+      internalID: 1407630873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8573efeb7f17945bc40b9685dfb6ca
+      internalID: 1242098420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4c053fa48f4554d9db83b93d662e4e
+      internalID: -305740832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd1b6252830f8843bc27cfb52cb78ae
+      internalID: 848969864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d54dde76042c19448c41c70d062c5fe
+      internalID: 1600527863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0131bb6dd300d254d9b8efe6223e8bc7
+      internalID: 6416166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f16ea5681b3b54799ad26276524d9c
+      internalID: -1572512969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6785df687cec7c744926e9443596965b
+      internalID: -664473874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561ac4a1a24ce4d4a8225c0ccd523960
+      internalID: 164258845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65101cd328ffb88498b5065cd800ce7e
+      internalID: 149897324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec5c42f0d2c99c40b4272a89fb1efb1
+      internalID: 353108930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f926632913ad8c5438c97acbced0d00d
+      internalID: -1956567543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5844dace4bf05ac48a3d5cb013a5595f
+      internalID: 261721908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccab1841ecd9e4a4884adb3c7f03d2db
+      internalID: 1154918285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262028fc49a1e7644a0429261ae60b46
+      internalID: 859307051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a3f714c1444e64cb45d1982e54fc4c
+      internalID: -912980693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_16
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44894667e19bb34eaeda9319441c6d8
+      internalID: 53011515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_17
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccefa9e09b1d344fb49d5a798022f22
+      internalID: -2133088313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_18
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859584ecfb91ccf47bf9ff3804dc2d5a
+      internalID: 511799932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_19
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2115f8fb9df5944aae342e462d95c85
+      internalID: 759324582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_20
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a179b7f7d7843314588607de36c57a5f
+      internalID: 338722125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdc3c3c75fdbf141949a6d2e2bef93c
+      internalID: -525940880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedec873b3d7bf74ebc528c5ba426fd5
+      internalID: -1589927904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d531bdc759f44409aee026c3124cca
+      internalID: -614042887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c3dc5cbc2564b41a81577e0cd518aa
+      internalID: 681765357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beea41a1e7268024b8674b29dab2d50e
+      internalID: -2016637837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_26
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131945b37fdab5d4da0b227f5893a61b
+      internalID: -1575775898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d0dbfdba5671e44a9e98959760fcce
+      internalID: -1095554681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_28
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f31767862abc164388c137e63bf10fc
+      internalID: -1809421040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_29
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2243158e873668438d3a4f4f4c3889a
+      internalID: -2106334150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_30
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c85a04f0b96ff488d46267ca89bb7f
+      internalID: 1497331975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_31
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3024635fb9e67604489deb2ac7fcd42b
+      internalID: -558949996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_32
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b768f7a610a2f24c8afdc0c98a2346b
+      internalID: 1121368263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_33
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0bcc922d6bc7e4f9e2b69e5cbdaef8
+      internalID: 645748518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_34
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ebbb0418e8219469400f0c3896ac54
+      internalID: -1620509287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_35
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3c620df5121924cbccb74da7230030
+      internalID: 1647790802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_36
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698ec03ab2f1a74458714b5f3a45a9d7
+      internalID: 438016007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_37
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3602ea4e5048084e8ac2ca4d3c021cd
+      internalID: 1720704617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_38
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd07b912270e7a41a0dd801f738fa95
+      internalID: -530955370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_39
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ae437d774f7fe4e89dfdf7f62055b6
+      internalID: 242608028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_40
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6cd050fb7c516439aa1f837d027e85
+      internalID: -575031835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_41
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5389647ab4c761a47a63b817f22bbed9
+      internalID: 148382270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f0bc37e63de924b927107313e309c5
+      internalID: 525752390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_43
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8922d066181364644bc9681c907878d9
+      internalID: -767294700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ba870f3ea626f448901bfab9ccb390
+      internalID: -1956796512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_45
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0cd3f1e2db6e8b47ad320a0d36e94b6
+      internalID: -629244170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_46
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3181239f05eae3443a606ed361bf6707
+      internalID: 906091758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_47
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c6d9276918f1a4ea97f2706d980dd1
+      internalID: -1068696123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_48
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbb4e948ef1ee54c8f3ad3255ec4c80
+      internalID: -401500303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_49
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff292aebd76042546b6494a54257ff32
+      internalID: 2138363684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_50
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16972fe28c378e45ad194ddf284328a
+      internalID: 1467239735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_51
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f180ebf0fca22641878d4b87731ea39
+      internalID: 1631831738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_52
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f276d18134776e46a6ce31ff137d82b
+      internalID: -2011801730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_53
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4c4e7cf6a9ba642a2204c95c07d56e
+      internalID: 268853501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_54
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8017db728c92578418632001b71d3768
+      internalID: -480387370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_55
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb7c75b695a6a64cab8c162d9b436ed
+      internalID: 1646736638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_56
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a6bafcbc2f7a74491ff0801f896d10
+      internalID: -470252465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_57
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5709a25d3f5d7aa48bf3627d2799beb9
+      internalID: 995359688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_58
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75499d9222a1894c8ec510fcb7a6fe4
+      internalID: -516480476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_59
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0282207bada7e7a428a0c72344f229ad
+      internalID: 564316596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_60
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15337546d84e55b4889dc5ac038e2ef5
+      internalID: 148114760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_61
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6991e998c038fff4b87e9a06a68a6c34
+      internalID: -541292665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_62
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5934435f72fa1fd41b6e03d3e92288bb
+      internalID: 1669736413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcb238fe591c284aadfba2be31cbb0b
+      internalID: 1329643147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92f62ebcd289174ca83251086188bd4
+      internalID: -1639065030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_65
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2058e618b30234abdc9442f56db5a7
+      internalID: -1615278120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85df897dde98d2488117047d643c3bc
+      internalID: 324158578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_67
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d271a9463ee9506429d93ea96e73dff9
+      internalID: -1121589994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_68
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f8f922507de4a41a74f8b0b911d84a
+      internalID: -1817157939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_69
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f239cb7b80dbde499433f325829f9ec
+      internalID: 398012678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_70
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328146e2e1a52a4418f06c2cdbc398f2
+      internalID: 297321737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_71
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24bfcea227668745ba20532a3c1051d
+      internalID: 860719190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_72
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d21f79dc5349b43ba4770809f3022e
+      internalID: -1730356155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_73
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9218ef1fda18e42945d57f9ae9bc60
+      internalID: -165147133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_74
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e441747be6efb4c82512a1b9aa929e
+      internalID: -1751649018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_75
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd71d281b990c940b89cc0a9070942a
+      internalID: 2126769250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_76
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4266a269b7869469219a55e9310e76
+      internalID: -1245530751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_77
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fabae6b451aa62468333823219ca369
+      internalID: -1179260296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_78
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d559c6c047e2ce64db96cee4f83f01b6
+      internalID: -554038197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_79
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8863a1c07d3984f8368db9584c5a88
+      internalID: -1122380247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_80
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7988f3ac9ae796542a21afe59eabb791
+      internalID: -1336591567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_81
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78f60deae90b1f45b4295cb58f69a4a
+      internalID: 1151969818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_82
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30312420e724b254b9bdabdeb3f9974e
+      internalID: 1705270205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_83
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a16dff0a5db0c4eaaff20360229ce3
+      internalID: 883395299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc04c76f50dcae44abd1073d582b1c8
+      internalID: 717112105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_85
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45146487285c5854aa98a0078ac57aeb
+      internalID: -2142185732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_86
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551a30b667673f243b87989babe46f5f
+      internalID: -1776781038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_87
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1045306c848aa3142b05b04cf52cb12f
+      internalID: 2038231880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_88
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f42253a1e4848469eeafadfb3f16b8
+      internalID: 1091249272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_89
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04ba58dccabe63498de6c2cd258c30c
+      internalID: 701548783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_90
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6051876135cd704ea063905896c826c
+      internalID: 402528605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_91
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03dec397137f4f488b4ce4c64219fcc
+      internalID: 1988582938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_92
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a470525aadbeaa4bbc5591b1888f917
+      internalID: 1791259247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_93
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd8ce5b4f03f9943b76c30e6abf2c44
+      internalID: -664446449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_94
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b089ef716cf574185a177b63d46290
+      internalID: -1337365776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_95
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0244d6bb2bebe46489bdb08017c59202
+      internalID: 1064337851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_96
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42055c1658e9f1f40a01e8efe7d5a949
+      internalID: -1853418009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_97
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2499eb0a58774ce4a91cbea6e4bd89c9
+      internalID: 798178939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_98
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bd1f287ed4e3346bc3cf5b24c72a32
+      internalID: 1220431457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_99
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ce6a3b7ae872f438fa6c5e2c978218
+      internalID: 646727517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_100
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3522535a30f52a24e8e307f282b5d2a0
+      internalID: -1114599798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_101
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fef1c388ffa91241be24966c33560ac
+      internalID: 54714696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_102
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c3a073db0323a4ba5f05d4b7671c9c
+      internalID: 481533472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_103
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6b7fb7dae8e2040b51a2831bced968
+      internalID: 1421313654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_104
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdefee8e4c74f642a74c895f2e6d20a
+      internalID: -305358913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eda31705bb234f4693f9c2bcb57138d
+      internalID: -1406160982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1202c618978854d40a098c11d276f1be
+      internalID: 886651321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fe700a57abb0148bca03d2b208186b
+      internalID: 86074420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e872314005f3e1b4c8f5430788c6c183
+      internalID: -474575694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432d16522949cd04d992c7eea1d51121
+      internalID: -182146211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92af69d1ede2fd944ac1404c6cb37e40
+      internalID: -1142574935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f22163203675e468dd22d7b49c5c1d
+      internalID: -1022899858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98dc61a6ad519af42aea186b02ca3758
+      internalID: -1516815251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad343d35ca63894419a88ccada23dad9
+      internalID: -241864986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3575fa0a1db984c99343fc4559ee7c
+      internalID: 566355429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9f20fc7e670004fa8eb5e6b7a6a48b
+      internalID: -1924571924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac500837f236248459656d86e31ada1f
+      internalID: -68228910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fefc9b15ad2b6b4e9cb9ab8dc4c84db
+      internalID: 218604310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6521b77576a9842a3f7449fa75b36b
+      internalID: 1147884327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a450afa3dd544468f20222a39d6613
+      internalID: -968097992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_120
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4e5cefa8d64f244b839be78dacecfd
+      internalID: 1331552840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_121
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c03402a5849c174a9100c7a285eba5d
+      internalID: -1944080544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_122
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0375301c422430249b8a55f854f58ca4
+      internalID: -643549668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_123
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5051be77f4bbef845b31ad270e87b12f
+      internalID: -1405467705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_124
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8f727190df42543b1726189510e4a7
+      internalID: -918480251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_125
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce956cf099f13ef4db76957892d446cc
+      internalID: 1738754117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4154a227b343554cbb1818990c51ea5
+      internalID: -424515532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_127
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdfbfc4bc217544bb945bef3a567e76
+      internalID: 1529403985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_128
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e493ba9a46f7eb47984cbefd2554165
+      internalID: -1740885366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_129
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1512cdcc2935d94cb8358d6ce08ef8e
+      internalID: 740811951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_130
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f58382352eac104ab9551cf0f51966e
+      internalID: -87873856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_131
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be64e714daf12474e8e52f9a368b20f7
+      internalID: -692698841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_132
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27450b33cda479a4e822922775666790
+      internalID: -512252153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_133
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10315392f6154d04cbec8a16a093b75c
+      internalID: 1789588740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_134
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674555a4546d49b4dba27632b63308d7
+      internalID: 1167311409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_135
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07ddc7f13c164d429f7b41b6996a0f8
+      internalID: 1628611506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_136
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558344c1b9c76334d8f9ae82421f405c
+      internalID: -1096763993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_137
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d1ec8f1422ddb43a3cb59227b988c6
+      internalID: -1394245441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_138
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd513f3ac25bc9468538d3a95b1a771
+      internalID: -994507695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_139
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856017b02b0654c44af47a8a8813ce61
+      internalID: -1055584986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_140
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d119ca6011c352b46a11022f78bf61c3
+      internalID: -177019887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_141
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64103e1ec30f7bb45a80e78e81b07ad4
+      internalID: 782866299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_142
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac52382ec29e344e9821794f81f0f0f
+      internalID: -1097711777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_143
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f028aa6ddd148da43a924c414c872534
+      internalID: -1838554331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_144
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5de8b2fea1d5e6449fe2ed0a5a30ec7
+      internalID: 2120536802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_145
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9127570af90b0a643b529fc927a84d55
+      internalID: -600652961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_146
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba74843d7231d943816c15944527954
+      internalID: -478792575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb4a06660c92b94789e20d03a38be41
+      internalID: -647379345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b822f525addd7f43be9a7f4cf166bd5
+      internalID: -1669639334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_149
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc9503656a8f15438ee1a5c00ccf385
+      internalID: -1239741829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_150
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debeb899ca727304497f24a59817cbca
+      internalID: -1379737224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_151
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709d20ada4cff5e4fbdab34a306456a0
+      internalID: -89706503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_152
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5e62c19c86e944fbc7784bfc7802b0
+      internalID: -660772478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_153
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e07ab235c5f4094d85633f30d983693
+      internalID: 797996393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_154
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3184cb58694b6dc4b841fbdc7f5ec549
+      internalID: -826957095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_155
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16df85b93aa509c41b821b402edd02f7
+      internalID: -1368854151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_156
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f879429a806e3c43bb7b1d580a79b6d
+      internalID: -278113644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_157
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d254d30f94ebf548a3302ff0b65c50a
+      internalID: 510526843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_158
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7df49da807f1a64382ed9e5d1ca63e1
+      internalID: 1272075286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_159
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68134f45608272d4bb0f9add527b6820
+      internalID: 1235772114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_160
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f266961a50b61e94da040bd643c8f6b6
+      internalID: -346328685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_161
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592ae29dadb80bb45ac9ac62f7a6adf1
+      internalID: 1624346141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_162
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae4c4beb4a38f24f8ec73c46a1af5eb
+      internalID: 1452453779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_163
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31869df098c45674da07a23a284501b5
+      internalID: 1423269581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_164
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8289d06dd746583429368105873a69e5
+      internalID: 36638591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_165
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511701abd041a9445ad58b6b2d29f5c4
+      internalID: -1624136985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_166
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c566b6b4609915e4ea53ab42e47f8723
+      internalID: 935640274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_167
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddfdf6f18a639d48bf72eb2702cf5fa
+      internalID: 1887362791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eca102621e4ce549874e6fc908e27c5
+      internalID: -1440676408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_169
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abfd52db545d2947bb058d6665f5e60
+      internalID: -1875749913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_170
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e993cb0000ccc4f85accf641508a39
+      internalID: -1407063035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_171
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e01bb475d63344894ab43fc15ee397
+      internalID: 513534583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_172
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6365e554ac939048b6e2bc35051ea35
+      internalID: 1212620546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_173
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24c7ba6088399d458fe88309670dd2d
+      internalID: 699361945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_174
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751318340ac6178429f10eeec093897b
+      internalID: -1007384651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_175
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbcf69a19086ca49bac4aa81a9883fa
+      internalID: -1119288459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_176
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da272353c276ca41b030dfaf9a11fe7
+      internalID: -2093242313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_177
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcacb9d1fef059f4493bb85424114700
+      internalID: -1364664602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_178
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9edc66dab9a36e4dabf79fadf790a1d
+      internalID: 653235681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_179
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef8b08b4b9e5dd4aa5ea95753a5ccbf
+      internalID: -2127431240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_180
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b060e72092e9a04892a71dff23ea0f3
+      internalID: 1640330106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_181
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e639e4335dcf54dba3a6ad56192871
+      internalID: -1539305796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_182
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fe18a45cc397d499160d520bde5090
+      internalID: 891312786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_183
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53a59cca17262346961aa640637dacc
+      internalID: -1119732248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_184
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c590fe1685b78ef47a417eebe22102ea
+      internalID: -1681232311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_185
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42251740dd17b3d4a98ad8a37aab9971
+      internalID: 335914884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_186
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf2b100cf6d3864794fa4c81c392c7a
+      internalID: -535186678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_187
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ddfe18f78b10042bdd7130226a3c4d
+      internalID: -653314393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_188
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6f7d87408f2d44a8a01a737b269eaf
+      internalID: 1270558321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_189
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c01302c141e59440a812215cbb8cbd9
+      internalID: 367207088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_190
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c30bbd42e73584fb4a50fc9b61eb30
+      internalID: 1670455219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_191
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f63a6416c6cdc84686a7ea8cc4d7b43
+      internalID: 865464972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_192
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be014f23ffb1ee41bb87039cd29484b
+      internalID: -1985908904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_193
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac358df0ced7694e85a644d512b4546
+      internalID: 282340099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_194
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83604f043c64d1f4bbb8fc18f85e66bb
+      internalID: -470989157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_195
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3813ab4d3a5e3745ba64fe57d167118
+      internalID: 685092154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_196
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5313ffdbdfdba924ca1126e16ff0758c
+      internalID: 1757253830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_197
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720a138c7b96f5349ae114a73a985178
+      internalID: -1732093102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_198
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba903bccec3c4041accfe6acb98b969
+      internalID: -173822972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_199
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6100579f69c1d1c4f844802190879c4f
+      internalID: -1071557710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_200
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcc9248f8dcd1446b4eed69c1e42a2e
+      internalID: -1855802996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_201
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080223f61016c1049ba62670e76ced35
+      internalID: -961344934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_202
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1848b874a02304a956f1a5fce26ab9
+      internalID: 640812131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_203
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82183e55dc8621541897d86206665252
+      internalID: 150989664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_204
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f188cb7c19fcb6f42944996c3bd33014
+      internalID: -2137030181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_205
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b4a1e74a3043945900bff7fbf49d22
+      internalID: 45249358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_206
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bd01ce4d3c1544381ee4775e95ca44
+      internalID: -1062702557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_207
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c659d99cc59e174e9c7e43f338204fe
+      internalID: 391093949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_208
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf71dda3de0b5e46b4642258f17a58b
+      internalID: -388215693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_209
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f5341d8f1473c47805c83e0fc26e34
+      internalID: -684200485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0925fa164e68e164abcf291fbf4dec5a
+      internalID: -1479395331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_211
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0db8bded0c71e7428bdc32594a478f7
+      internalID: -59801065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_212
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afd8080cdb9a2f40b4439f1e6dd7ae0
+      internalID: 1495465415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_213
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefeed2f367515c42ab7b02c25c7abc2
+      internalID: 1837126568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_214
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381104525d7d9ba49bbbe0bf2630c41c
+      internalID: -726985035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_215
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b75b13e892e6144a40bcee0ee51974
+      internalID: 857288875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_216
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565cf368756c2844992c3e07da0aa3f2
+      internalID: 1141509270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_217
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42c43dd9a7d9764183252f505535963
+      internalID: 41685190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_218
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdcd7d252604b34798db52527b75ff5
+      internalID: -479266662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_219
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4dc1f9e5a4ef8b41b6ac92b172a84fa
+      internalID: -1565784030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_220
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ec3d497d24ec84d96ca634125922ea
+      internalID: -1546005035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_221
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e579ac90a8acd419693baabd509172
+      internalID: -1427289993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_222
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4314ad29f4f9f32469c7a31cea4e9f3d
+      internalID: 1326076043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_223
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c7f8de6a36a8949a6af134cfd53abf
+      internalID: 2048081929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_224
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d305e77f6861cbf4a995f0778f74e3bd
+      internalID: 2128639629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_225
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85fc7d29fa4c36409b4eb3dfea73a56
+      internalID: 1993995129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_226
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d1c121c245c18419e340c0cb0b9f2d
+      internalID: -1567486679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_227
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986f5666709efa54481036daa61def4c
+      internalID: 381001628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_228
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c4bddf00536c14a95d80bbb6268aff
+      internalID: -1528109877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_229
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3965bd6e73667fc4a8827662feeb2b6a
+      internalID: 1726689325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_230
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1cc7b6b1f1dea43a01468251b20264
+      internalID: 731086325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_231
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d759d1de25d0a440adf68a500251278
+      internalID: 920245594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_232
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b66a222a9cdd74494fe95787012fb6
+      internalID: 1365822246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_233
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474355c0d38a13847bae84cbd7a021fd
+      internalID: -862131977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_234
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f71090308fd6d54aa0fbe411c2de880
+      internalID: -2142125152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_235
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401d68564f6322d4bb97772f6632765e
+      internalID: 1304037081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_236
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbba7b3d8e0ce0a4ca4b43504e2f59e1
+      internalID: -1715181380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_237
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ef5a669c660bc41b15878381c0a173
+      internalID: 1077081527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_238
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbeaa1e4cb49cd4e94d34824c9b6ac1
+      internalID: 1566695925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_239
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0992b64c6d030f74d8baef2f0d0622e7
+      internalID: 1659719479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_240
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1cdff7550cdeb44c887c823153fb672
+      internalID: 462489403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_241
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac652b541916744582b906e98a4764d
+      internalID: -1834097912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_242
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5b963104ccf3d49adc4b968d41fcd6
+      internalID: -1979808837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_243
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027a490c859bc77418bcb670c16a3912
+      internalID: 2079596249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_244
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f1f0b598cf1fb49a7abf984e36cb31
+      internalID: -33808312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_245
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b4dabada3506144b3cda52da35ea96
+      internalID: 539015167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_246
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652122fa329c54d42842951361636004
+      internalID: -751326711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_247
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d62bea65a9c98f48a027d1c89374fa2
+      internalID: 565513200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_248
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b56585034819049975d0c0df3f0fbc
+      internalID: -1309750511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_249
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d465ceaa1ef95f4e800f6348c5311e8
+      internalID: -1346150095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_250
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67047268bc8ff4478508ffaaeade7f3
+      internalID: 708408311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_251
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf5ec52c5c397b4a949248edc6cec02
+      internalID: -1352750648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_252
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc35b10b7b15d3145b1abbe9f1e42081
+      internalID: -1005008958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_253
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55222fa6c864bf4faf549aef7452d33
+      internalID: -441492899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: board-game-icons_254
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cccd6ce45ba2ba46a53cf4bc0524b49
+      internalID: -1405299219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3037f740ed40abd408951c0309009bb7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":21.0,"y":13.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      board-game-icons_0: 1407630873
+      board-game-icons_1: 1242098420
+      board-game-icons_10: 353108930
+      board-game-icons_100: -1114599798
+      board-game-icons_101: 54714696
+      board-game-icons_102: 481533472
+      board-game-icons_103: 1421313654
+      board-game-icons_104: -305358913
+      board-game-icons_105: -1406160982
+      board-game-icons_106: 886651321
+      board-game-icons_107: 86074420
+      board-game-icons_108: -474575694
+      board-game-icons_109: -182146211
+      board-game-icons_11: -1956567543
+      board-game-icons_110: -1142574935
+      board-game-icons_111: -1022899858
+      board-game-icons_112: -1516815251
+      board-game-icons_113: -241864986
+      board-game-icons_114: 566355429
+      board-game-icons_115: -1924571924
+      board-game-icons_116: -68228910
+      board-game-icons_117: 218604310
+      board-game-icons_118: 1147884327
+      board-game-icons_119: -968097992
+      board-game-icons_12: 261721908
+      board-game-icons_120: 1331552840
+      board-game-icons_121: -1944080544
+      board-game-icons_122: -643549668
+      board-game-icons_123: -1405467705
+      board-game-icons_124: -918480251
+      board-game-icons_125: 1738754117
+      board-game-icons_126: -424515532
+      board-game-icons_127: 1529403985
+      board-game-icons_128: -1740885366
+      board-game-icons_129: 740811951
+      board-game-icons_13: 1154918285
+      board-game-icons_130: -87873856
+      board-game-icons_131: -692698841
+      board-game-icons_132: -512252153
+      board-game-icons_133: 1789588740
+      board-game-icons_134: 1167311409
+      board-game-icons_135: 1628611506
+      board-game-icons_136: -1096763993
+      board-game-icons_137: -1394245441
+      board-game-icons_138: -994507695
+      board-game-icons_139: -1055584986
+      board-game-icons_14: 859307051
+      board-game-icons_140: -177019887
+      board-game-icons_141: 782866299
+      board-game-icons_142: -1097711777
+      board-game-icons_143: -1838554331
+      board-game-icons_144: 2120536802
+      board-game-icons_145: -600652961
+      board-game-icons_146: -478792575
+      board-game-icons_147: -647379345
+      board-game-icons_148: -1669639334
+      board-game-icons_149: -1239741829
+      board-game-icons_15: -912980693
+      board-game-icons_150: -1379737224
+      board-game-icons_151: -89706503
+      board-game-icons_152: -660772478
+      board-game-icons_153: 797996393
+      board-game-icons_154: -826957095
+      board-game-icons_155: -1368854151
+      board-game-icons_156: -278113644
+      board-game-icons_157: 510526843
+      board-game-icons_158: 1272075286
+      board-game-icons_159: 1235772114
+      board-game-icons_16: 53011515
+      board-game-icons_160: -346328685
+      board-game-icons_161: 1624346141
+      board-game-icons_162: 1452453779
+      board-game-icons_163: 1423269581
+      board-game-icons_164: 36638591
+      board-game-icons_165: -1624136985
+      board-game-icons_166: 935640274
+      board-game-icons_167: 1887362791
+      board-game-icons_168: -1440676408
+      board-game-icons_169: -1875749913
+      board-game-icons_17: -2133088313
+      board-game-icons_170: -1407063035
+      board-game-icons_171: 513534583
+      board-game-icons_172: 1212620546
+      board-game-icons_173: 699361945
+      board-game-icons_174: -1007384651
+      board-game-icons_175: -1119288459
+      board-game-icons_176: -2093242313
+      board-game-icons_177: -1364664602
+      board-game-icons_178: 653235681
+      board-game-icons_179: -2127431240
+      board-game-icons_18: 511799932
+      board-game-icons_180: 1640330106
+      board-game-icons_181: -1539305796
+      board-game-icons_182: 891312786
+      board-game-icons_183: -1119732248
+      board-game-icons_184: -1681232311
+      board-game-icons_185: 335914884
+      board-game-icons_186: -535186678
+      board-game-icons_187: -653314393
+      board-game-icons_188: 1270558321
+      board-game-icons_189: 367207088
+      board-game-icons_19: 759324582
+      board-game-icons_190: 1670455219
+      board-game-icons_191: 865464972
+      board-game-icons_192: -1985908904
+      board-game-icons_193: 282340099
+      board-game-icons_194: -470989157
+      board-game-icons_195: 685092154
+      board-game-icons_196: 1757253830
+      board-game-icons_197: -1732093102
+      board-game-icons_198: -173822972
+      board-game-icons_199: -1071557710
+      board-game-icons_2: -305740832
+      board-game-icons_20: 338722125
+      board-game-icons_200: -1855802996
+      board-game-icons_201: -961344934
+      board-game-icons_202: 640812131
+      board-game-icons_203: 150989664
+      board-game-icons_204: -2137030181
+      board-game-icons_205: 45249358
+      board-game-icons_206: -1062702557
+      board-game-icons_207: 391093949
+      board-game-icons_208: -388215693
+      board-game-icons_209: -684200485
+      board-game-icons_21: -525940880
+      board-game-icons_210: -1479395331
+      board-game-icons_211: -59801065
+      board-game-icons_212: 1495465415
+      board-game-icons_213: 1837126568
+      board-game-icons_214: -726985035
+      board-game-icons_215: 857288875
+      board-game-icons_216: 1141509270
+      board-game-icons_217: 41685190
+      board-game-icons_218: -479266662
+      board-game-icons_219: -1565784030
+      board-game-icons_22: -1589927904
+      board-game-icons_220: -1546005035
+      board-game-icons_221: -1427289993
+      board-game-icons_222: 1326076043
+      board-game-icons_223: 2048081929
+      board-game-icons_224: 2128639629
+      board-game-icons_225: 1993995129
+      board-game-icons_226: -1567486679
+      board-game-icons_227: 381001628
+      board-game-icons_228: -1528109877
+      board-game-icons_229: 1726689325
+      board-game-icons_23: -614042887
+      board-game-icons_230: 731086325
+      board-game-icons_231: 920245594
+      board-game-icons_232: 1365822246
+      board-game-icons_233: -862131977
+      board-game-icons_234: -2142125152
+      board-game-icons_235: 1304037081
+      board-game-icons_236: -1715181380
+      board-game-icons_237: 1077081527
+      board-game-icons_238: 1566695925
+      board-game-icons_239: 1659719479
+      board-game-icons_24: 681765357
+      board-game-icons_240: 462489403
+      board-game-icons_241: -1834097912
+      board-game-icons_242: -1979808837
+      board-game-icons_243: 2079596249
+      board-game-icons_244: -33808312
+      board-game-icons_245: 539015167
+      board-game-icons_246: -751326711
+      board-game-icons_247: 565513200
+      board-game-icons_248: -1309750511
+      board-game-icons_249: -1346150095
+      board-game-icons_25: -2016637837
+      board-game-icons_250: 708408311
+      board-game-icons_251: -1352750648
+      board-game-icons_252: -1005008958
+      board-game-icons_253: -441492899
+      board-game-icons_254: -1405299219
+      board-game-icons_26: -1575775898
+      board-game-icons_27: -1095554681
+      board-game-icons_28: -1809421040
+      board-game-icons_29: -2106334150
+      board-game-icons_3: 848969864
+      board-game-icons_30: 1497331975
+      board-game-icons_31: -558949996
+      board-game-icons_32: 1121368263
+      board-game-icons_33: 645748518
+      board-game-icons_34: -1620509287
+      board-game-icons_35: 1647790802
+      board-game-icons_36: 438016007
+      board-game-icons_37: 1720704617
+      board-game-icons_38: -530955370
+      board-game-icons_39: 242608028
+      board-game-icons_4: 1600527863
+      board-game-icons_40: -575031835
+      board-game-icons_41: 148382270
+      board-game-icons_42: 525752390
+      board-game-icons_43: -767294700
+      board-game-icons_44: -1956796512
+      board-game-icons_45: -629244170
+      board-game-icons_46: 906091758
+      board-game-icons_47: -1068696123
+      board-game-icons_48: -401500303
+      board-game-icons_49: 2138363684
+      board-game-icons_5: 6416166
+      board-game-icons_50: 1467239735
+      board-game-icons_51: 1631831738
+      board-game-icons_52: -2011801730
+      board-game-icons_53: 268853501
+      board-game-icons_54: -480387370
+      board-game-icons_55: 1646736638
+      board-game-icons_56: -470252465
+      board-game-icons_57: 995359688
+      board-game-icons_58: -516480476
+      board-game-icons_59: 564316596
+      board-game-icons_6: -1572512969
+      board-game-icons_60: 148114760
+      board-game-icons_61: -541292665
+      board-game-icons_62: 1669736413
+      board-game-icons_63: 1329643147
+      board-game-icons_64: -1639065030
+      board-game-icons_65: -1615278120
+      board-game-icons_66: 324158578
+      board-game-icons_67: -1121589994
+      board-game-icons_68: -1817157939
+      board-game-icons_69: 398012678
+      board-game-icons_7: -664473874
+      board-game-icons_70: 297321737
+      board-game-icons_71: 860719190
+      board-game-icons_72: -1730356155
+      board-game-icons_73: -165147133
+      board-game-icons_74: -1751649018
+      board-game-icons_75: 2126769250
+      board-game-icons_76: -1245530751
+      board-game-icons_77: -1179260296
+      board-game-icons_78: -554038197
+      board-game-icons_79: -1122380247
+      board-game-icons_8: 164258845
+      board-game-icons_80: -1336591567
+      board-game-icons_81: 1151969818
+      board-game-icons_82: 1705270205
+      board-game-icons_83: 883395299
+      board-game-icons_84: 717112105
+      board-game-icons_85: -2142185732
+      board-game-icons_86: -1776781038
+      board-game-icons_87: 2038231880
+      board-game-icons_88: 1091249272
+      board-game-icons_89: 701548783
+      board-game-icons_9: 149897324
+      board-game-icons_90: 402528605
+      board-game-icons_91: 1988582938
+      board-game-icons_92: 1791259247
+      board-game-icons_93: -664446449
+      board-game-icons_94: -1337365776
+      board-game-icons_95: 1064337851
+      board-game-icons_96: -1853418009
+      board-game-icons_97: 798178939
+      board-game-icons_98: 1220431457
+      board-game-icons_99: 646727517
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
