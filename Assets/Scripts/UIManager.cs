@@ -1,13 +1,21 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class UIManager : MonoBehaviour
 {
+    [System.Serializable]
+    public struct StatBarEntry
+    {
+        public StatType type;
+        public Slider slider;
+    }
+
     public static UIManager instance { get; private set; }
 
-    [SerializeField] private Slider healthBar;
-    [SerializeField] private Slider staminaBar;
-    [SerializeField] private Slider ammoBar;
+    [SerializeField] private List<StatBarEntry> statBars;
+
+    private Dictionary<StatType, Slider> bars;
 
     private void Awake()
     {
@@ -19,16 +27,21 @@ public class UIManager : MonoBehaviour
         }
 
         instance = this;
+
+        // dictionary
+        CreateStatsDict();
     }
 
-    public void SetMaxValues(float h, float s, float a)
+    public void SetMaxValue(StatType type, float value) => bars[type].maxValue = value;
+    public void SetValue(StatType type, float value) => bars[type].value = value;
+
+    void CreateStatsDict()
     {
-        healthBar.maxValue = h;
-        staminaBar.maxValue = s;
-        ammoBar.maxValue = a;
-    }
+        bars = new Dictionary<StatType, Slider>();
 
-    public void SetHealth(float x) => healthBar.value = x;
-    public void SetStamina(float x) => staminaBar.value = x;
-    public void SetAmmo(float x) => ammoBar.value = x;
+        foreach (var entry in statBars)
+        {
+            bars[entry.type] = entry.slider;
+        }
+    }
 }

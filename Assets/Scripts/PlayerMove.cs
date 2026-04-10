@@ -272,7 +272,7 @@ public class PlayerMove : MonoBehaviour
 
     void Shoot()
     {
-        stats.EditAmmo(-gun.ammoCost);
+        stats.EditStat(StatType.Ammo, -gun.ammoCost);
         hasFired = true;
 
         StartCoroutine(FireBurst());

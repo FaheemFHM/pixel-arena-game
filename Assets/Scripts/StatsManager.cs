@@ -1,92 +1,116 @@
 using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 
 public class StatsManager : MonoBehaviour
 {
-    [SerializeField] private float maxHealth = 10f;
-    [SerializeField] private float healthRechargeDelay = 3f;
-    [SerializeField] private float healthRechargeDur = 5f;
-    private float healthRechargeRate;
-    private float health;
+    [System.Serializable]
+    public class Stat
+    {
+        public float maxVal;
+        public float rechargeDelay;
+        public float rechargeDur;
+        [HideInInspector] public float rechargeRate;
+        [HideInInspector] public float timer;
+        [HideInInspector] public float val;
+    }
 
-    [SerializeField] private float maxStamina = 5f;
-    [SerializeField] private float staminaRechargeDelay = 2f;
-    [SerializeField] private float staminaRechargeDur = 5f;
-    private float staminaRechargeRate;
-    private float stamina;
+    [System.Serializable]
+    public struct StatEntry
+    {
+        public StatType type;
+        public Stat stat;
+    }
 
-    [SerializeField] private int maxAmmo = 40;
-    [SerializeField] private float ammoRechargeDelay = 1f;
-    [SerializeField] private float ammoRechargeDur = 5f;
-    private float ammoRechargeRate;
-    private int ammo;
+    private Dictionary<StatType, Stat> stats;
+    [SerializeField] private List<StatEntry> statEntries;
+
+    private void Awake()
+    {
+        CreateStatsDict();
+    }
 
     private void Start()
     {
-        health = maxHealth;
-        stamina = maxStamina;
-        ammo = maxAmmo;
+        // fill all ui sliders
+        foreach (var kvp in stats)
+        {
+            StatType sType = kvp.Key;
+            Stat stat = kvp.Value;
 
-        healthRechargeRate = maxHealth / healthRechargeDur;
-        staminaRechargeRate = maxStamina / staminaRechargeDur;
-        ammoRechargeRate = maxAmmo / ammoRechargeDur;
-
-        UIManager.instance.SetMaxValues(maxHealth, maxStamina, maxAmmo);
+            UIManager.instance.SetMaxValue(sType, stat.maxVal);
+            UIManager.instance.SetValue(sType, stat.val);
+        }
     }
 
-    public void EditHealth(float toAdd)
+    private void Update()
     {
-        health += toAdd;
-
-        if (health < 0)
+        foreach (var kvp in stats)
         {
-            health = maxHealth;
-            Debug.Log("Out health");
+            HandleRecharge(kvp.Key, kvp.Value);
         }
-        else if (health > maxHealth)
-        {
-            health = maxHealth;
-        }
-
-        UIManager.instance.SetHealth(health);
     }
 
-    public void EditStamina(float toAdd)
+    void HandleRecharge(StatType type, Stat s)
     {
-        stamina += toAdd;
+        // increment timer
+        s.timer += Time.deltaTime;
 
-        if (stamina < 0)
-        {
-            stamina = maxStamina;
-            Debug.Log("Out of stamina");
-        }
-        else if (stamina > maxStamina)
-        {
-            stamina = maxStamina;
-        }
+        // exit early
+        if (s.timer < s.rechargeDelay) return;
+        if (s.val >= s.maxVal) return;
 
-        UIManager.instance.SetStamina(stamina);
+        // calculate recharge amount
+        float amount = s.rechargeRate * Time.deltaTime;
+
+        // apply changes
+        EditStat(type, amount, false);
     }
 
-    public void EditAmmo(int toAdd)
+    public void EditStat(StatType sType, float amount, bool resetTimer = true)
     {
-        ammo += toAdd;
+        // get stat
+        Stat s = stats[sType];
 
-        if (ammo < 0)
+        // update timer
+        if (resetTimer) s.timer = 0f;
+
+        // update value
+        s.val += amount;
+
+        // clamp value
+        if (s.val < 0)
         {
-            ammo = maxAmmo;
-            Debug.Log("Out of ammo");
+            s.val = s.maxVal;
         }
-        else if (ammo > maxAmmo)
+        else if (s.val > s.maxVal)
         {
-            ammo = maxAmmo;
+            s.val = s.maxVal;
         }
 
-        UIManager.instance.SetAmmo(ammo);
+        // ui update
+        UIManager.instance.SetValue(sType, s.val);
     }
 
     public bool HasAmmo(int ammoCost)
     {
-        return ammo >= ammoCost;
+        return stats[StatType.Ammo].val >= ammoCost;
+    }
+
+    void CreateStatsDict()
+    {
+        stats = new Dictionary<StatType, Stat>();
+
+        foreach (var entry in statEntries)
+        {
+            // get the stat type
+            StatType sType = entry.type;
+
+            // store the stat object in the dict with key = type
+            stats[sType] = entry.stat;
+
+            // calculate some values
+            stats[sType].val = stats[sType].maxVal;
+            stats[sType].rechargeRate = stats[sType].maxVal / stats[sType].rechargeDur;
+        }
     }
 }
