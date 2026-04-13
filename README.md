@@ -20,17 +20,6 @@ A fast-paced 2D pixel-art arena game built in Unity, focused on responsive movem
 
 ---
 
-## 🧠 Technical Focus
-
-This project explores:
-
-* Real-time player control and responsiveness
-* Game loop and state management
-* Scalable structure for multiple game modes
-* Foundations of multiplayer synchronisation
-
----
-
 ## Project Structure
 
 ```
@@ -57,14 +46,17 @@ This project explores:
 
 ---
 
-## 📌 Roadmap
+## Roadmap
 
-* [x] Core movement system
-* [x] Basic combat mechanics
-* [x] Arena prototype
+* [x] Player controls
+* [x] Combat mechanics
+* [x] Terrain elevation system
+* [x] Player UI
+* [ ] Menu UI
 * [ ] LAN multiplayer
-* [ ] Game modes (tag, elimination, etc.)
-* [ ] UI and polish
+* [ ] Procedural terrain generation
+* [ ] Interactive environments
+* [ ] Game modes
 
 ---
 
