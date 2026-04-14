@@ -7,7 +7,7 @@ A fast-paced 2D pixel-art arena game built in Unity, focused on responsive movem
 
 ## Samples
 
-![Gameplay Gif](./Media/gameplay-sample-1.gif)
+![Gameplay Gif](./Media/gameplay-clip-1.gif)
 
 ---
 
