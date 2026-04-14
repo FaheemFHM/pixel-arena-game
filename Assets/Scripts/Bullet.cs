@@ -4,39 +4,39 @@ public class Bullet : MonoBehaviour
 {
     public int level;
 
-    /*    private SpriteRenderer rend;
+    private SpriteRenderer rend;
 
-        private void Start()
+    private void Start()
+    {
+        rend = GetComponent<SpriteRenderer>();
+
+        //ApplyShadow();
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        // get level of tilemap
+        Level tilemapLevel = other.GetComponentInParent<Level>();
+        if (tilemapLevel == null) return;
+
+        // destroy bullet on collision
+        if (tilemapLevel.level >= level)
         {
-            rend = GetComponent<SpriteRenderer>();
-
-            ApplyShadow();
+            Destroy(gameObject);
+            enabled = false;
+            return;
         }
 
-        private void OnTriggerEnter2D(Collider2D other)
-        {
-            // get level of tilemap
-            Level tilemapLevel = other.GetComponentInParent<Level>();
-            if (tilemapLevel == null) return;
+/*        // no need to consider triggers too far down
+        if (tilemapLevel.level < level - 1) return;
 
-            // destroy bullet on collision
-            if (tilemapLevel.level >= level)
-            {
-                Destroy(gameObject);
-                enabled = false;
-                return;
-            }
+        // check if the shadow is needed and apply it
+        ApplyShadow();*/
+    }
 
-            // no need to consider triggers too far down
-            if (tilemapLevel.level < level - 1) return;
-
-            // check if the shadow is needed and apply it
-            ApplyShadow();
-        }
-
-        void ApplyShadow()
-        {
-            bool isFree = LevelManager.instance.GetTileType(transform.position, level - 1) == TileType.None;
-            rend.color = isFree ? Color.white : Color.black;
-        }*/
+    void ApplyShadow()
+    {
+        bool isFree = LevelManager.instance.GetTileType(transform.position, level - 1) == TileType.None;
+        rend.color = isFree ? Color.white : Color.black;
+    }
 }

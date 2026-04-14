@@ -160,7 +160,7 @@ public class PlayerMove : MonoBehaviour
         // entering ramp
         if (!prevRamping && isRamping)
         {
-            rend.color = Color.red;
+            rend.color = new Color(1, 1, 1, 0.5f);
         }
         // exiting ramp
         else if (prevRamping && !isRamping)
